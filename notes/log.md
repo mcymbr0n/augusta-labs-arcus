@@ -29,14 +29,43 @@ funcionado dependendo do espaço de possibilidades. O indício forte
 de "perceber o mecanismo" não são as tentativas, é o ficheiro de
 191 MB: um desafio que se adivinha não distribui um modelo desse tamanho.
 
+### 02:33
+Extraí o Source code (zip). Só tinha o README genérico do repo
+("Public artifacts for Arcus challenges"). Sem código. O zip de
+source do GitHub empacota o repo, não os assets da release.
+Beco sem saída — o código não está aqui.
 
-<!-- A partir daqui escreves tu, por ordem de tempo. Exemplo do formato:
+### 02:58
+ode.pt começa com PK → é um ZIP. Confirma que não é texto puro.
+PyTorch usa ZIP, mas outros formatos também. Próximo: ver o que
+está DENTRO do zip antes de assumir.
 
-### 21:47
-Liguei por ssh. Apareceu um banner com X. Copiei para recon.md.
-Primeira impressão: parece um menu, não um shell normal.
+### 03:03
+Confirmado: ode.pt é checkpoint PyTorch, arquitetura tipo transformer
+(modelo de linguagem). H1 confirmada. A flag é quase de certeza gerada
+por este modelo. Agora preciso de perceber a arquitetura para o correr.
 
-### 22:10
-Beco sem saída: tentei "cat flag" achando que era filesystem normal.
-Não é. Perdi 15 min. Lição: não assumir que é bash.
--->
+### 03:15
+Arquitetura identificada: GPT tipo nanoGPT. Tokenizer ao nível do byte
+(vocab 262 = 256+6). Contexto 1024, dim 640. nanoGPT é open-source,
+o que ajuda — sei onde está o "manual". Próximo: ver a config completa
+(model_args) para ter os parâmetros todos.
+
+### 03:18
+Nota de segurança: o ode.pt contém um pickle (data.pkl). Pickles podem
+executar código malicioso ao serem carregados. A Claude Code usou
+pickletools (leitura passiva) em vez de carregar diretamente — abordagem
+correta para inspecionar sem risco.
+
+### 03:28
+Reparei no sha256 ao lado do ode.pt no GitHub. É o
+checksum (impressão digital) do ficheiro, para verificar integridade
+do download. Boa prática: confirmar que o meu ode.pt tem o mesmo hash.
+
+### 12:29
+Config completa extraída. Modelo de literatura portuguesa (heterónimos
+Pessoa), artifact "luso_lit_lm_player_v2". Tokens especiais _ e {
+parecem delimitadores de flag (formato algo{..._...}). Campos ausente
+dos heterónimos apesar de ser o tema — possível pista. Caminho fica
+claro: gerar condicionando o modelo. Próximo: decidir como correr
+(NumPy vs PyTorch) e fazer commit antes.

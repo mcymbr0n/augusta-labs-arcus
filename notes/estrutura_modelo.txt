@@ -1,0 +1,3068 @@
+    0: \x80 PROTO      2
+    2: }    EMPTY_DICT
+    3: q    BINPUT     0
+    5: (    MARK
+    6: X        BINUNICODE 'model'
+   16: q        BINPUT     1
+   18: c        GLOBAL     'collections OrderedDict'
+   43: q        BINPUT     2
+   45: )        EMPTY_TUPLE
+   46: R        REDUCE
+   47: q        BINPUT     3
+   49: (        MARK
+   50: X            BINUNICODE 'transformer.wte.weight'
+   77: q            BINPUT     4
+   79: c            GLOBAL     'torch._utils _rebuild_tensor_v2'
+  112: q            BINPUT     5
+  114: (            MARK
+  115: (                MARK
+  116: X                    BINUNICODE 'storage'
+  128: q                    BINPUT     6
+  130: c                    GLOBAL     'torch FloatStorage'
+  150: q                    BINPUT     7
+  152: X                    BINUNICODE '0'
+  158: q                    BINPUT     8
+  160: X                    BINUNICODE 'cpu'
+  168: q                    BINPUT     9
+  170: J                    BININT     167680
+  175: t                    TUPLE      (MARK at 115)
+  176: q                BINPUT     10
+  178: Q                BINPERSID
+  179: K                BININT1    0
+  181: M                BININT2    262
+  184: M                BININT2    640
+  187: \x86             TUPLE2
+  188: q                BINPUT     11
+  190: M                BININT2    640
+  193: K                BININT1    1
+  195: \x86             TUPLE2
+  196: q                BINPUT     12
+  198: \x89             NEWFALSE
+  199: h                BINGET     2
+  201: )                EMPTY_TUPLE
+  202: R                REDUCE
+  203: q                BINPUT     13
+  205: t                TUPLE      (MARK at 114)
+  206: q            BINPUT     14
+  208: R            REDUCE
+  209: q            BINPUT     15
+  211: X            BINUNICODE 'transformer.wpe.weight'
+  238: q            BINPUT     16
+  240: h            BINGET     5
+  242: (            MARK
+  243: (                MARK
+  244: h                    BINGET     6
+  246: h                    BINGET     7
+  248: X                    BINUNICODE '1'
+  254: q                    BINPUT     17
+  256: h                    BINGET     9
+  258: J                    BININT     655360
+  263: t                    TUPLE      (MARK at 243)
+  264: q                BINPUT     18
+  266: Q                BINPERSID
+  267: K                BININT1    0
+  269: M                BININT2    1024
+  272: M                BININT2    640
+  275: \x86             TUPLE2
+  276: q                BINPUT     19
+  278: M                BININT2    640
+  281: K                BININT1    1
+  283: \x86             TUPLE2
+  284: q                BINPUT     20
+  286: \x89             NEWFALSE
+  287: h                BINGET     2
+  289: )                EMPTY_TUPLE
+  290: R                REDUCE
+  291: q                BINPUT     21
+  293: t                TUPLE      (MARK at 242)
+  294: q            BINPUT     22
+  296: R            REDUCE
+  297: q            BINPUT     23
+  299: X            BINUNICODE 'transformer.h.0.ln_1.weight'
+  331: q            BINPUT     24
+  333: h            BINGET     5
+  335: (            MARK
+  336: (                MARK
+  337: h                    BINGET     6
+  339: h                    BINGET     7
+  341: X                    BINUNICODE '2'
+  347: q                    BINPUT     25
+  349: h                    BINGET     9
+  351: M                    BININT2    640
+  354: t                    TUPLE      (MARK at 336)
+  355: q                BINPUT     26
+  357: Q                BINPERSID
+  358: K                BININT1    0
+  360: M                BININT2    640
+  363: \x85             TUPLE1
+  364: q                BINPUT     27
+  366: K                BININT1    1
+  368: \x85             TUPLE1
+  369: q                BINPUT     28
+  371: \x89             NEWFALSE
+  372: h                BINGET     2
+  374: )                EMPTY_TUPLE
+  375: R                REDUCE
+  376: q                BINPUT     29
+  378: t                TUPLE      (MARK at 335)
+  379: q            BINPUT     30
+  381: R            REDUCE
+  382: q            BINPUT     31
+  384: X            BINUNICODE 'transformer.h.0.attn.c_attn.weight'
+  423: q            BINPUT     32
+  425: h            BINGET     5
+  427: (            MARK
+  428: (                MARK
+  429: h                    BINGET     6
+  431: h                    BINGET     7
+  433: X                    BINUNICODE '3'
+  439: q                    BINPUT     33
+  441: h                    BINGET     9
+  443: J                    BININT     1228800
+  448: t                    TUPLE      (MARK at 428)
+  449: q                BINPUT     34
+  451: Q                BINPERSID
+  452: K                BININT1    0
+  454: M                BININT2    1920
+  457: M                BININT2    640
+  460: \x86             TUPLE2
+  461: q                BINPUT     35
+  463: M                BININT2    640
+  466: K                BININT1    1
+  468: \x86             TUPLE2
+  469: q                BINPUT     36
+  471: \x89             NEWFALSE
+  472: h                BINGET     2
+  474: )                EMPTY_TUPLE
+  475: R                REDUCE
+  476: q                BINPUT     37
+  478: t                TUPLE      (MARK at 427)
+  479: q            BINPUT     38
+  481: R            REDUCE
+  482: q            BINPUT     39
+  484: X            BINUNICODE 'transformer.h.0.attn.c_proj.weight'
+  523: q            BINPUT     40
+  525: h            BINGET     5
+  527: (            MARK
+  528: (                MARK
+  529: h                    BINGET     6
+  531: h                    BINGET     7
+  533: X                    BINUNICODE '4'
+  539: q                    BINPUT     41
+  541: h                    BINGET     9
+  543: J                    BININT     409600
+  548: t                    TUPLE      (MARK at 528)
+  549: q                BINPUT     42
+  551: Q                BINPERSID
+  552: K                BININT1    0
+  554: M                BININT2    640
+  557: M                BININT2    640
+  560: \x86             TUPLE2
+  561: q                BINPUT     43
+  563: M                BININT2    640
+  566: K                BININT1    1
+  568: \x86             TUPLE2
+  569: q                BINPUT     44
+  571: \x89             NEWFALSE
+  572: h                BINGET     2
+  574: )                EMPTY_TUPLE
+  575: R                REDUCE
+  576: q                BINPUT     45
+  578: t                TUPLE      (MARK at 527)
+  579: q            BINPUT     46
+  581: R            REDUCE
+  582: q            BINPUT     47
+  584: X            BINUNICODE 'transformer.h.0.ln_2.weight'
+  616: q            BINPUT     48
+  618: h            BINGET     5
+  620: (            MARK
+  621: (                MARK
+  622: h                    BINGET     6
+  624: h                    BINGET     7
+  626: X                    BINUNICODE '5'
+  632: q                    BINPUT     49
+  634: h                    BINGET     9
+  636: M                    BININT2    640
+  639: t                    TUPLE      (MARK at 621)
+  640: q                BINPUT     50
+  642: Q                BINPERSID
+  643: K                BININT1    0
+  645: M                BININT2    640
+  648: \x85             TUPLE1
+  649: q                BINPUT     51
+  651: K                BININT1    1
+  653: \x85             TUPLE1
+  654: q                BINPUT     52
+  656: \x89             NEWFALSE
+  657: h                BINGET     2
+  659: )                EMPTY_TUPLE
+  660: R                REDUCE
+  661: q                BINPUT     53
+  663: t                TUPLE      (MARK at 620)
+  664: q            BINPUT     54
+  666: R            REDUCE
+  667: q            BINPUT     55
+  669: X            BINUNICODE 'transformer.h.0.mlp.c_fc.weight'
+  705: q            BINPUT     56
+  707: h            BINGET     5
+  709: (            MARK
+  710: (                MARK
+  711: h                    BINGET     6
+  713: h                    BINGET     7
+  715: X                    BINUNICODE '6'
+  721: q                    BINPUT     57
+  723: h                    BINGET     9
+  725: J                    BININT     1638400
+  730: t                    TUPLE      (MARK at 710)
+  731: q                BINPUT     58
+  733: Q                BINPERSID
+  734: K                BININT1    0
+  736: M                BININT2    2560
+  739: M                BININT2    640
+  742: \x86             TUPLE2
+  743: q                BINPUT     59
+  745: M                BININT2    640
+  748: K                BININT1    1
+  750: \x86             TUPLE2
+  751: q                BINPUT     60
+  753: \x89             NEWFALSE
+  754: h                BINGET     2
+  756: )                EMPTY_TUPLE
+  757: R                REDUCE
+  758: q                BINPUT     61
+  760: t                TUPLE      (MARK at 709)
+  761: q            BINPUT     62
+  763: R            REDUCE
+  764: q            BINPUT     63
+  766: X            BINUNICODE 'transformer.h.0.mlp.c_proj.weight'
+  804: q            BINPUT     64
+  806: h            BINGET     5
+  808: (            MARK
+  809: (                MARK
+  810: h                    BINGET     6
+  812: h                    BINGET     7
+  814: X                    BINUNICODE '7'
+  820: q                    BINPUT     65
+  822: h                    BINGET     9
+  824: J                    BININT     1638400
+  829: t                    TUPLE      (MARK at 809)
+  830: q                BINPUT     66
+  832: Q                BINPERSID
+  833: K                BININT1    0
+  835: M                BININT2    640
+  838: M                BININT2    2560
+  841: \x86             TUPLE2
+  842: q                BINPUT     67
+  844: M                BININT2    2560
+  847: K                BININT1    1
+  849: \x86             TUPLE2
+  850: q                BINPUT     68
+  852: \x89             NEWFALSE
+  853: h                BINGET     2
+  855: )                EMPTY_TUPLE
+  856: R                REDUCE
+  857: q                BINPUT     69
+  859: t                TUPLE      (MARK at 808)
+  860: q            BINPUT     70
+  862: R            REDUCE
+  863: q            BINPUT     71
+  865: X            BINUNICODE 'transformer.h.1.ln_1.weight'
+  897: q            BINPUT     72
+  899: h            BINGET     5
+  901: (            MARK
+  902: (                MARK
+  903: h                    BINGET     6
+  905: h                    BINGET     7
+  907: X                    BINUNICODE '8'
+  913: q                    BINPUT     73
+  915: h                    BINGET     9
+  917: M                    BININT2    640
+  920: t                    TUPLE      (MARK at 902)
+  921: q                BINPUT     74
+  923: Q                BINPERSID
+  924: K                BININT1    0
+  926: M                BININT2    640
+  929: \x85             TUPLE1
+  930: q                BINPUT     75
+  932: K                BININT1    1
+  934: \x85             TUPLE1
+  935: q                BINPUT     76
+  937: \x89             NEWFALSE
+  938: h                BINGET     2
+  940: )                EMPTY_TUPLE
+  941: R                REDUCE
+  942: q                BINPUT     77
+  944: t                TUPLE      (MARK at 901)
+  945: q            BINPUT     78
+  947: R            REDUCE
+  948: q            BINPUT     79
+  950: X            BINUNICODE 'transformer.h.1.attn.c_attn.weight'
+  989: q            BINPUT     80
+  991: h            BINGET     5
+  993: (            MARK
+  994: (                MARK
+  995: h                    BINGET     6
+  997: h                    BINGET     7
+  999: X                    BINUNICODE '9'
+ 1005: q                    BINPUT     81
+ 1007: h                    BINGET     9
+ 1009: J                    BININT     1228800
+ 1014: t                    TUPLE      (MARK at 994)
+ 1015: q                BINPUT     82
+ 1017: Q                BINPERSID
+ 1018: K                BININT1    0
+ 1020: M                BININT2    1920
+ 1023: M                BININT2    640
+ 1026: \x86             TUPLE2
+ 1027: q                BINPUT     83
+ 1029: M                BININT2    640
+ 1032: K                BININT1    1
+ 1034: \x86             TUPLE2
+ 1035: q                BINPUT     84
+ 1037: \x89             NEWFALSE
+ 1038: h                BINGET     2
+ 1040: )                EMPTY_TUPLE
+ 1041: R                REDUCE
+ 1042: q                BINPUT     85
+ 1044: t                TUPLE      (MARK at 993)
+ 1045: q            BINPUT     86
+ 1047: R            REDUCE
+ 1048: q            BINPUT     87
+ 1050: X            BINUNICODE 'transformer.h.1.attn.c_proj.weight'
+ 1089: q            BINPUT     88
+ 1091: h            BINGET     5
+ 1093: (            MARK
+ 1094: (                MARK
+ 1095: h                    BINGET     6
+ 1097: h                    BINGET     7
+ 1099: X                    BINUNICODE '10'
+ 1106: q                    BINPUT     89
+ 1108: h                    BINGET     9
+ 1110: J                    BININT     409600
+ 1115: t                    TUPLE      (MARK at 1094)
+ 1116: q                BINPUT     90
+ 1118: Q                BINPERSID
+ 1119: K                BININT1    0
+ 1121: M                BININT2    640
+ 1124: M                BININT2    640
+ 1127: \x86             TUPLE2
+ 1128: q                BINPUT     91
+ 1130: M                BININT2    640
+ 1133: K                BININT1    1
+ 1135: \x86             TUPLE2
+ 1136: q                BINPUT     92
+ 1138: \x89             NEWFALSE
+ 1139: h                BINGET     2
+ 1141: )                EMPTY_TUPLE
+ 1142: R                REDUCE
+ 1143: q                BINPUT     93
+ 1145: t                TUPLE      (MARK at 1093)
+ 1146: q            BINPUT     94
+ 1148: R            REDUCE
+ 1149: q            BINPUT     95
+ 1151: X            BINUNICODE 'transformer.h.1.ln_2.weight'
+ 1183: q            BINPUT     96
+ 1185: h            BINGET     5
+ 1187: (            MARK
+ 1188: (                MARK
+ 1189: h                    BINGET     6
+ 1191: h                    BINGET     7
+ 1193: X                    BINUNICODE '11'
+ 1200: q                    BINPUT     97
+ 1202: h                    BINGET     9
+ 1204: M                    BININT2    640
+ 1207: t                    TUPLE      (MARK at 1188)
+ 1208: q                BINPUT     98
+ 1210: Q                BINPERSID
+ 1211: K                BININT1    0
+ 1213: M                BININT2    640
+ 1216: \x85             TUPLE1
+ 1217: q                BINPUT     99
+ 1219: K                BININT1    1
+ 1221: \x85             TUPLE1
+ 1222: q                BINPUT     100
+ 1224: \x89             NEWFALSE
+ 1225: h                BINGET     2
+ 1227: )                EMPTY_TUPLE
+ 1228: R                REDUCE
+ 1229: q                BINPUT     101
+ 1231: t                TUPLE      (MARK at 1187)
+ 1232: q            BINPUT     102
+ 1234: R            REDUCE
+ 1235: q            BINPUT     103
+ 1237: X            BINUNICODE 'transformer.h.1.mlp.c_fc.weight'
+ 1273: q            BINPUT     104
+ 1275: h            BINGET     5
+ 1277: (            MARK
+ 1278: (                MARK
+ 1279: h                    BINGET     6
+ 1281: h                    BINGET     7
+ 1283: X                    BINUNICODE '12'
+ 1290: q                    BINPUT     105
+ 1292: h                    BINGET     9
+ 1294: J                    BININT     1638400
+ 1299: t                    TUPLE      (MARK at 1278)
+ 1300: q                BINPUT     106
+ 1302: Q                BINPERSID
+ 1303: K                BININT1    0
+ 1305: M                BININT2    2560
+ 1308: M                BININT2    640
+ 1311: \x86             TUPLE2
+ 1312: q                BINPUT     107
+ 1314: M                BININT2    640
+ 1317: K                BININT1    1
+ 1319: \x86             TUPLE2
+ 1320: q                BINPUT     108
+ 1322: \x89             NEWFALSE
+ 1323: h                BINGET     2
+ 1325: )                EMPTY_TUPLE
+ 1326: R                REDUCE
+ 1327: q                BINPUT     109
+ 1329: t                TUPLE      (MARK at 1277)
+ 1330: q            BINPUT     110
+ 1332: R            REDUCE
+ 1333: q            BINPUT     111
+ 1335: X            BINUNICODE 'transformer.h.1.mlp.c_proj.weight'
+ 1373: q            BINPUT     112
+ 1375: h            BINGET     5
+ 1377: (            MARK
+ 1378: (                MARK
+ 1379: h                    BINGET     6
+ 1381: h                    BINGET     7
+ 1383: X                    BINUNICODE '13'
+ 1390: q                    BINPUT     113
+ 1392: h                    BINGET     9
+ 1394: J                    BININT     1638400
+ 1399: t                    TUPLE      (MARK at 1378)
+ 1400: q                BINPUT     114
+ 1402: Q                BINPERSID
+ 1403: K                BININT1    0
+ 1405: M                BININT2    640
+ 1408: M                BININT2    2560
+ 1411: \x86             TUPLE2
+ 1412: q                BINPUT     115
+ 1414: M                BININT2    2560
+ 1417: K                BININT1    1
+ 1419: \x86             TUPLE2
+ 1420: q                BINPUT     116
+ 1422: \x89             NEWFALSE
+ 1423: h                BINGET     2
+ 1425: )                EMPTY_TUPLE
+ 1426: R                REDUCE
+ 1427: q                BINPUT     117
+ 1429: t                TUPLE      (MARK at 1377)
+ 1430: q            BINPUT     118
+ 1432: R            REDUCE
+ 1433: q            BINPUT     119
+ 1435: X            BINUNICODE 'transformer.h.2.ln_1.weight'
+ 1467: q            BINPUT     120
+ 1469: h            BINGET     5
+ 1471: (            MARK
+ 1472: (                MARK
+ 1473: h                    BINGET     6
+ 1475: h                    BINGET     7
+ 1477: X                    BINUNICODE '14'
+ 1484: q                    BINPUT     121
+ 1486: h                    BINGET     9
+ 1488: M                    BININT2    640
+ 1491: t                    TUPLE      (MARK at 1472)
+ 1492: q                BINPUT     122
+ 1494: Q                BINPERSID
+ 1495: K                BININT1    0
+ 1497: M                BININT2    640
+ 1500: \x85             TUPLE1
+ 1501: q                BINPUT     123
+ 1503: K                BININT1    1
+ 1505: \x85             TUPLE1
+ 1506: q                BINPUT     124
+ 1508: \x89             NEWFALSE
+ 1509: h                BINGET     2
+ 1511: )                EMPTY_TUPLE
+ 1512: R                REDUCE
+ 1513: q                BINPUT     125
+ 1515: t                TUPLE      (MARK at 1471)
+ 1516: q            BINPUT     126
+ 1518: R            REDUCE
+ 1519: q            BINPUT     127
+ 1521: X            BINUNICODE 'transformer.h.2.attn.c_attn.weight'
+ 1560: q            BINPUT     128
+ 1562: h            BINGET     5
+ 1564: (            MARK
+ 1565: (                MARK
+ 1566: h                    BINGET     6
+ 1568: h                    BINGET     7
+ 1570: X                    BINUNICODE '15'
+ 1577: q                    BINPUT     129
+ 1579: h                    BINGET     9
+ 1581: J                    BININT     1228800
+ 1586: t                    TUPLE      (MARK at 1565)
+ 1587: q                BINPUT     130
+ 1589: Q                BINPERSID
+ 1590: K                BININT1    0
+ 1592: M                BININT2    1920
+ 1595: M                BININT2    640
+ 1598: \x86             TUPLE2
+ 1599: q                BINPUT     131
+ 1601: M                BININT2    640
+ 1604: K                BININT1    1
+ 1606: \x86             TUPLE2
+ 1607: q                BINPUT     132
+ 1609: \x89             NEWFALSE
+ 1610: h                BINGET     2
+ 1612: )                EMPTY_TUPLE
+ 1613: R                REDUCE
+ 1614: q                BINPUT     133
+ 1616: t                TUPLE      (MARK at 1564)
+ 1617: q            BINPUT     134
+ 1619: R            REDUCE
+ 1620: q            BINPUT     135
+ 1622: X            BINUNICODE 'transformer.h.2.attn.c_proj.weight'
+ 1661: q            BINPUT     136
+ 1663: h            BINGET     5
+ 1665: (            MARK
+ 1666: (                MARK
+ 1667: h                    BINGET     6
+ 1669: h                    BINGET     7
+ 1671: X                    BINUNICODE '16'
+ 1678: q                    BINPUT     137
+ 1680: h                    BINGET     9
+ 1682: J                    BININT     409600
+ 1687: t                    TUPLE      (MARK at 1666)
+ 1688: q                BINPUT     138
+ 1690: Q                BINPERSID
+ 1691: K                BININT1    0
+ 1693: M                BININT2    640
+ 1696: M                BININT2    640
+ 1699: \x86             TUPLE2
+ 1700: q                BINPUT     139
+ 1702: M                BININT2    640
+ 1705: K                BININT1    1
+ 1707: \x86             TUPLE2
+ 1708: q                BINPUT     140
+ 1710: \x89             NEWFALSE
+ 1711: h                BINGET     2
+ 1713: )                EMPTY_TUPLE
+ 1714: R                REDUCE
+ 1715: q                BINPUT     141
+ 1717: t                TUPLE      (MARK at 1665)
+ 1718: q            BINPUT     142
+ 1720: R            REDUCE
+ 1721: q            BINPUT     143
+ 1723: X            BINUNICODE 'transformer.h.2.ln_2.weight'
+ 1755: q            BINPUT     144
+ 1757: h            BINGET     5
+ 1759: (            MARK
+ 1760: (                MARK
+ 1761: h                    BINGET     6
+ 1763: h                    BINGET     7
+ 1765: X                    BINUNICODE '17'
+ 1772: q                    BINPUT     145
+ 1774: h                    BINGET     9
+ 1776: M                    BININT2    640
+ 1779: t                    TUPLE      (MARK at 1760)
+ 1780: q                BINPUT     146
+ 1782: Q                BINPERSID
+ 1783: K                BININT1    0
+ 1785: M                BININT2    640
+ 1788: \x85             TUPLE1
+ 1789: q                BINPUT     147
+ 1791: K                BININT1    1
+ 1793: \x85             TUPLE1
+ 1794: q                BINPUT     148
+ 1796: \x89             NEWFALSE
+ 1797: h                BINGET     2
+ 1799: )                EMPTY_TUPLE
+ 1800: R                REDUCE
+ 1801: q                BINPUT     149
+ 1803: t                TUPLE      (MARK at 1759)
+ 1804: q            BINPUT     150
+ 1806: R            REDUCE
+ 1807: q            BINPUT     151
+ 1809: X            BINUNICODE 'transformer.h.2.mlp.c_fc.weight'
+ 1845: q            BINPUT     152
+ 1847: h            BINGET     5
+ 1849: (            MARK
+ 1850: (                MARK
+ 1851: h                    BINGET     6
+ 1853: h                    BINGET     7
+ 1855: X                    BINUNICODE '18'
+ 1862: q                    BINPUT     153
+ 1864: h                    BINGET     9
+ 1866: J                    BININT     1638400
+ 1871: t                    TUPLE      (MARK at 1850)
+ 1872: q                BINPUT     154
+ 1874: Q                BINPERSID
+ 1875: K                BININT1    0
+ 1877: M                BININT2    2560
+ 1880: M                BININT2    640
+ 1883: \x86             TUPLE2
+ 1884: q                BINPUT     155
+ 1886: M                BININT2    640
+ 1889: K                BININT1    1
+ 1891: \x86             TUPLE2
+ 1892: q                BINPUT     156
+ 1894: \x89             NEWFALSE
+ 1895: h                BINGET     2
+ 1897: )                EMPTY_TUPLE
+ 1898: R                REDUCE
+ 1899: q                BINPUT     157
+ 1901: t                TUPLE      (MARK at 1849)
+ 1902: q            BINPUT     158
+ 1904: R            REDUCE
+ 1905: q            BINPUT     159
+ 1907: X            BINUNICODE 'transformer.h.2.mlp.c_proj.weight'
+ 1945: q            BINPUT     160
+ 1947: h            BINGET     5
+ 1949: (            MARK
+ 1950: (                MARK
+ 1951: h                    BINGET     6
+ 1953: h                    BINGET     7
+ 1955: X                    BINUNICODE '19'
+ 1962: q                    BINPUT     161
+ 1964: h                    BINGET     9
+ 1966: J                    BININT     1638400
+ 1971: t                    TUPLE      (MARK at 1950)
+ 1972: q                BINPUT     162
+ 1974: Q                BINPERSID
+ 1975: K                BININT1    0
+ 1977: M                BININT2    640
+ 1980: M                BININT2    2560
+ 1983: \x86             TUPLE2
+ 1984: q                BINPUT     163
+ 1986: M                BININT2    2560
+ 1989: K                BININT1    1
+ 1991: \x86             TUPLE2
+ 1992: q                BINPUT     164
+ 1994: \x89             NEWFALSE
+ 1995: h                BINGET     2
+ 1997: )                EMPTY_TUPLE
+ 1998: R                REDUCE
+ 1999: q                BINPUT     165
+ 2001: t                TUPLE      (MARK at 1949)
+ 2002: q            BINPUT     166
+ 2004: R            REDUCE
+ 2005: q            BINPUT     167
+ 2007: X            BINUNICODE 'transformer.h.3.ln_1.weight'
+ 2039: q            BINPUT     168
+ 2041: h            BINGET     5
+ 2043: (            MARK
+ 2044: (                MARK
+ 2045: h                    BINGET     6
+ 2047: h                    BINGET     7
+ 2049: X                    BINUNICODE '20'
+ 2056: q                    BINPUT     169
+ 2058: h                    BINGET     9
+ 2060: M                    BININT2    640
+ 2063: t                    TUPLE      (MARK at 2044)
+ 2064: q                BINPUT     170
+ 2066: Q                BINPERSID
+ 2067: K                BININT1    0
+ 2069: M                BININT2    640
+ 2072: \x85             TUPLE1
+ 2073: q                BINPUT     171
+ 2075: K                BININT1    1
+ 2077: \x85             TUPLE1
+ 2078: q                BINPUT     172
+ 2080: \x89             NEWFALSE
+ 2081: h                BINGET     2
+ 2083: )                EMPTY_TUPLE
+ 2084: R                REDUCE
+ 2085: q                BINPUT     173
+ 2087: t                TUPLE      (MARK at 2043)
+ 2088: q            BINPUT     174
+ 2090: R            REDUCE
+ 2091: q            BINPUT     175
+ 2093: X            BINUNICODE 'transformer.h.3.attn.c_attn.weight'
+ 2132: q            BINPUT     176
+ 2134: h            BINGET     5
+ 2136: (            MARK
+ 2137: (                MARK
+ 2138: h                    BINGET     6
+ 2140: h                    BINGET     7
+ 2142: X                    BINUNICODE '21'
+ 2149: q                    BINPUT     177
+ 2151: h                    BINGET     9
+ 2153: J                    BININT     1228800
+ 2158: t                    TUPLE      (MARK at 2137)
+ 2159: q                BINPUT     178
+ 2161: Q                BINPERSID
+ 2162: K                BININT1    0
+ 2164: M                BININT2    1920
+ 2167: M                BININT2    640
+ 2170: \x86             TUPLE2
+ 2171: q                BINPUT     179
+ 2173: M                BININT2    640
+ 2176: K                BININT1    1
+ 2178: \x86             TUPLE2
+ 2179: q                BINPUT     180
+ 2181: \x89             NEWFALSE
+ 2182: h                BINGET     2
+ 2184: )                EMPTY_TUPLE
+ 2185: R                REDUCE
+ 2186: q                BINPUT     181
+ 2188: t                TUPLE      (MARK at 2136)
+ 2189: q            BINPUT     182
+ 2191: R            REDUCE
+ 2192: q            BINPUT     183
+ 2194: X            BINUNICODE 'transformer.h.3.attn.c_proj.weight'
+ 2233: q            BINPUT     184
+ 2235: h            BINGET     5
+ 2237: (            MARK
+ 2238: (                MARK
+ 2239: h                    BINGET     6
+ 2241: h                    BINGET     7
+ 2243: X                    BINUNICODE '22'
+ 2250: q                    BINPUT     185
+ 2252: h                    BINGET     9
+ 2254: J                    BININT     409600
+ 2259: t                    TUPLE      (MARK at 2238)
+ 2260: q                BINPUT     186
+ 2262: Q                BINPERSID
+ 2263: K                BININT1    0
+ 2265: M                BININT2    640
+ 2268: M                BININT2    640
+ 2271: \x86             TUPLE2
+ 2272: q                BINPUT     187
+ 2274: M                BININT2    640
+ 2277: K                BININT1    1
+ 2279: \x86             TUPLE2
+ 2280: q                BINPUT     188
+ 2282: \x89             NEWFALSE
+ 2283: h                BINGET     2
+ 2285: )                EMPTY_TUPLE
+ 2286: R                REDUCE
+ 2287: q                BINPUT     189
+ 2289: t                TUPLE      (MARK at 2237)
+ 2290: q            BINPUT     190
+ 2292: R            REDUCE
+ 2293: q            BINPUT     191
+ 2295: X            BINUNICODE 'transformer.h.3.ln_2.weight'
+ 2327: q            BINPUT     192
+ 2329: h            BINGET     5
+ 2331: (            MARK
+ 2332: (                MARK
+ 2333: h                    BINGET     6
+ 2335: h                    BINGET     7
+ 2337: X                    BINUNICODE '23'
+ 2344: q                    BINPUT     193
+ 2346: h                    BINGET     9
+ 2348: M                    BININT2    640
+ 2351: t                    TUPLE      (MARK at 2332)
+ 2352: q                BINPUT     194
+ 2354: Q                BINPERSID
+ 2355: K                BININT1    0
+ 2357: M                BININT2    640
+ 2360: \x85             TUPLE1
+ 2361: q                BINPUT     195
+ 2363: K                BININT1    1
+ 2365: \x85             TUPLE1
+ 2366: q                BINPUT     196
+ 2368: \x89             NEWFALSE
+ 2369: h                BINGET     2
+ 2371: )                EMPTY_TUPLE
+ 2372: R                REDUCE
+ 2373: q                BINPUT     197
+ 2375: t                TUPLE      (MARK at 2331)
+ 2376: q            BINPUT     198
+ 2378: R            REDUCE
+ 2379: q            BINPUT     199
+ 2381: X            BINUNICODE 'transformer.h.3.mlp.c_fc.weight'
+ 2417: q            BINPUT     200
+ 2419: h            BINGET     5
+ 2421: (            MARK
+ 2422: (                MARK
+ 2423: h                    BINGET     6
+ 2425: h                    BINGET     7
+ 2427: X                    BINUNICODE '24'
+ 2434: q                    BINPUT     201
+ 2436: h                    BINGET     9
+ 2438: J                    BININT     1638400
+ 2443: t                    TUPLE      (MARK at 2422)
+ 2444: q                BINPUT     202
+ 2446: Q                BINPERSID
+ 2447: K                BININT1    0
+ 2449: M                BININT2    2560
+ 2452: M                BININT2    640
+ 2455: \x86             TUPLE2
+ 2456: q                BINPUT     203
+ 2458: M                BININT2    640
+ 2461: K                BININT1    1
+ 2463: \x86             TUPLE2
+ 2464: q                BINPUT     204
+ 2466: \x89             NEWFALSE
+ 2467: h                BINGET     2
+ 2469: )                EMPTY_TUPLE
+ 2470: R                REDUCE
+ 2471: q                BINPUT     205
+ 2473: t                TUPLE      (MARK at 2421)
+ 2474: q            BINPUT     206
+ 2476: R            REDUCE
+ 2477: q            BINPUT     207
+ 2479: X            BINUNICODE 'transformer.h.3.mlp.c_proj.weight'
+ 2517: q            BINPUT     208
+ 2519: h            BINGET     5
+ 2521: (            MARK
+ 2522: (                MARK
+ 2523: h                    BINGET     6
+ 2525: h                    BINGET     7
+ 2527: X                    BINUNICODE '25'
+ 2534: q                    BINPUT     209
+ 2536: h                    BINGET     9
+ 2538: J                    BININT     1638400
+ 2543: t                    TUPLE      (MARK at 2522)
+ 2544: q                BINPUT     210
+ 2546: Q                BINPERSID
+ 2547: K                BININT1    0
+ 2549: M                BININT2    640
+ 2552: M                BININT2    2560
+ 2555: \x86             TUPLE2
+ 2556: q                BINPUT     211
+ 2558: M                BININT2    2560
+ 2561: K                BININT1    1
+ 2563: \x86             TUPLE2
+ 2564: q                BINPUT     212
+ 2566: \x89             NEWFALSE
+ 2567: h                BINGET     2
+ 2569: )                EMPTY_TUPLE
+ 2570: R                REDUCE
+ 2571: q                BINPUT     213
+ 2573: t                TUPLE      (MARK at 2521)
+ 2574: q            BINPUT     214
+ 2576: R            REDUCE
+ 2577: q            BINPUT     215
+ 2579: X            BINUNICODE 'transformer.h.4.ln_1.weight'
+ 2611: q            BINPUT     216
+ 2613: h            BINGET     5
+ 2615: (            MARK
+ 2616: (                MARK
+ 2617: h                    BINGET     6
+ 2619: h                    BINGET     7
+ 2621: X                    BINUNICODE '26'
+ 2628: q                    BINPUT     217
+ 2630: h                    BINGET     9
+ 2632: M                    BININT2    640
+ 2635: t                    TUPLE      (MARK at 2616)
+ 2636: q                BINPUT     218
+ 2638: Q                BINPERSID
+ 2639: K                BININT1    0
+ 2641: M                BININT2    640
+ 2644: \x85             TUPLE1
+ 2645: q                BINPUT     219
+ 2647: K                BININT1    1
+ 2649: \x85             TUPLE1
+ 2650: q                BINPUT     220
+ 2652: \x89             NEWFALSE
+ 2653: h                BINGET     2
+ 2655: )                EMPTY_TUPLE
+ 2656: R                REDUCE
+ 2657: q                BINPUT     221
+ 2659: t                TUPLE      (MARK at 2615)
+ 2660: q            BINPUT     222
+ 2662: R            REDUCE
+ 2663: q            BINPUT     223
+ 2665: X            BINUNICODE 'transformer.h.4.attn.c_attn.weight'
+ 2704: q            BINPUT     224
+ 2706: h            BINGET     5
+ 2708: (            MARK
+ 2709: (                MARK
+ 2710: h                    BINGET     6
+ 2712: h                    BINGET     7
+ 2714: X                    BINUNICODE '27'
+ 2721: q                    BINPUT     225
+ 2723: h                    BINGET     9
+ 2725: J                    BININT     1228800
+ 2730: t                    TUPLE      (MARK at 2709)
+ 2731: q                BINPUT     226
+ 2733: Q                BINPERSID
+ 2734: K                BININT1    0
+ 2736: M                BININT2    1920
+ 2739: M                BININT2    640
+ 2742: \x86             TUPLE2
+ 2743: q                BINPUT     227
+ 2745: M                BININT2    640
+ 2748: K                BININT1    1
+ 2750: \x86             TUPLE2
+ 2751: q                BINPUT     228
+ 2753: \x89             NEWFALSE
+ 2754: h                BINGET     2
+ 2756: )                EMPTY_TUPLE
+ 2757: R                REDUCE
+ 2758: q                BINPUT     229
+ 2760: t                TUPLE      (MARK at 2708)
+ 2761: q            BINPUT     230
+ 2763: R            REDUCE
+ 2764: q            BINPUT     231
+ 2766: X            BINUNICODE 'transformer.h.4.attn.c_proj.weight'
+ 2805: q            BINPUT     232
+ 2807: h            BINGET     5
+ 2809: (            MARK
+ 2810: (                MARK
+ 2811: h                    BINGET     6
+ 2813: h                    BINGET     7
+ 2815: X                    BINUNICODE '28'
+ 2822: q                    BINPUT     233
+ 2824: h                    BINGET     9
+ 2826: J                    BININT     409600
+ 2831: t                    TUPLE      (MARK at 2810)
+ 2832: q                BINPUT     234
+ 2834: Q                BINPERSID
+ 2835: K                BININT1    0
+ 2837: M                BININT2    640
+ 2840: M                BININT2    640
+ 2843: \x86             TUPLE2
+ 2844: q                BINPUT     235
+ 2846: M                BININT2    640
+ 2849: K                BININT1    1
+ 2851: \x86             TUPLE2
+ 2852: q                BINPUT     236
+ 2854: \x89             NEWFALSE
+ 2855: h                BINGET     2
+ 2857: )                EMPTY_TUPLE
+ 2858: R                REDUCE
+ 2859: q                BINPUT     237
+ 2861: t                TUPLE      (MARK at 2809)
+ 2862: q            BINPUT     238
+ 2864: R            REDUCE
+ 2865: q            BINPUT     239
+ 2867: X            BINUNICODE 'transformer.h.4.ln_2.weight'
+ 2899: q            BINPUT     240
+ 2901: h            BINGET     5
+ 2903: (            MARK
+ 2904: (                MARK
+ 2905: h                    BINGET     6
+ 2907: h                    BINGET     7
+ 2909: X                    BINUNICODE '29'
+ 2916: q                    BINPUT     241
+ 2918: h                    BINGET     9
+ 2920: M                    BININT2    640
+ 2923: t                    TUPLE      (MARK at 2904)
+ 2924: q                BINPUT     242
+ 2926: Q                BINPERSID
+ 2927: K                BININT1    0
+ 2929: M                BININT2    640
+ 2932: \x85             TUPLE1
+ 2933: q                BINPUT     243
+ 2935: K                BININT1    1
+ 2937: \x85             TUPLE1
+ 2938: q                BINPUT     244
+ 2940: \x89             NEWFALSE
+ 2941: h                BINGET     2
+ 2943: )                EMPTY_TUPLE
+ 2944: R                REDUCE
+ 2945: q                BINPUT     245
+ 2947: t                TUPLE      (MARK at 2903)
+ 2948: q            BINPUT     246
+ 2950: R            REDUCE
+ 2951: q            BINPUT     247
+ 2953: X            BINUNICODE 'transformer.h.4.mlp.c_fc.weight'
+ 2989: q            BINPUT     248
+ 2991: h            BINGET     5
+ 2993: (            MARK
+ 2994: (                MARK
+ 2995: h                    BINGET     6
+ 2997: h                    BINGET     7
+ 2999: X                    BINUNICODE '30'
+ 3006: q                    BINPUT     249
+ 3008: h                    BINGET     9
+ 3010: J                    BININT     1638400
+ 3015: t                    TUPLE      (MARK at 2994)
+ 3016: q                BINPUT     250
+ 3018: Q                BINPERSID
+ 3019: K                BININT1    0
+ 3021: M                BININT2    2560
+ 3024: M                BININT2    640
+ 3027: \x86             TUPLE2
+ 3028: q                BINPUT     251
+ 3030: M                BININT2    640
+ 3033: K                BININT1    1
+ 3035: \x86             TUPLE2
+ 3036: q                BINPUT     252
+ 3038: \x89             NEWFALSE
+ 3039: h                BINGET     2
+ 3041: )                EMPTY_TUPLE
+ 3042: R                REDUCE
+ 3043: q                BINPUT     253
+ 3045: t                TUPLE      (MARK at 2993)
+ 3046: q            BINPUT     254
+ 3048: R            REDUCE
+ 3049: q            BINPUT     255
+ 3051: X            BINUNICODE 'transformer.h.4.mlp.c_proj.weight'
+ 3089: r            LONG_BINPUT 256
+ 3094: h            BINGET     5
+ 3096: (            MARK
+ 3097: (                MARK
+ 3098: h                    BINGET     6
+ 3100: h                    BINGET     7
+ 3102: X                    BINUNICODE '31'
+ 3109: r                    LONG_BINPUT 257
+ 3114: h                    BINGET     9
+ 3116: J                    BININT     1638400
+ 3121: t                    TUPLE      (MARK at 3097)
+ 3122: r                LONG_BINPUT 258
+ 3127: Q                BINPERSID
+ 3128: K                BININT1    0
+ 3130: M                BININT2    640
+ 3133: M                BININT2    2560
+ 3136: \x86             TUPLE2
+ 3137: r                LONG_BINPUT 259
+ 3142: M                BININT2    2560
+ 3145: K                BININT1    1
+ 3147: \x86             TUPLE2
+ 3148: r                LONG_BINPUT 260
+ 3153: \x89             NEWFALSE
+ 3154: h                BINGET     2
+ 3156: )                EMPTY_TUPLE
+ 3157: R                REDUCE
+ 3158: r                LONG_BINPUT 261
+ 3163: t                TUPLE      (MARK at 3096)
+ 3164: r            LONG_BINPUT 262
+ 3169: R            REDUCE
+ 3170: r            LONG_BINPUT 263
+ 3175: X            BINUNICODE 'transformer.h.5.ln_1.weight'
+ 3207: r            LONG_BINPUT 264
+ 3212: h            BINGET     5
+ 3214: (            MARK
+ 3215: (                MARK
+ 3216: h                    BINGET     6
+ 3218: h                    BINGET     7
+ 3220: X                    BINUNICODE '32'
+ 3227: r                    LONG_BINPUT 265
+ 3232: h                    BINGET     9
+ 3234: M                    BININT2    640
+ 3237: t                    TUPLE      (MARK at 3215)
+ 3238: r                LONG_BINPUT 266
+ 3243: Q                BINPERSID
+ 3244: K                BININT1    0
+ 3246: M                BININT2    640
+ 3249: \x85             TUPLE1
+ 3250: r                LONG_BINPUT 267
+ 3255: K                BININT1    1
+ 3257: \x85             TUPLE1
+ 3258: r                LONG_BINPUT 268
+ 3263: \x89             NEWFALSE
+ 3264: h                BINGET     2
+ 3266: )                EMPTY_TUPLE
+ 3267: R                REDUCE
+ 3268: r                LONG_BINPUT 269
+ 3273: t                TUPLE      (MARK at 3214)
+ 3274: r            LONG_BINPUT 270
+ 3279: R            REDUCE
+ 3280: r            LONG_BINPUT 271
+ 3285: X            BINUNICODE 'transformer.h.5.attn.c_attn.weight'
+ 3324: r            LONG_BINPUT 272
+ 3329: h            BINGET     5
+ 3331: (            MARK
+ 3332: (                MARK
+ 3333: h                    BINGET     6
+ 3335: h                    BINGET     7
+ 3337: X                    BINUNICODE '33'
+ 3344: r                    LONG_BINPUT 273
+ 3349: h                    BINGET     9
+ 3351: J                    BININT     1228800
+ 3356: t                    TUPLE      (MARK at 3332)
+ 3357: r                LONG_BINPUT 274
+ 3362: Q                BINPERSID
+ 3363: K                BININT1    0
+ 3365: M                BININT2    1920
+ 3368: M                BININT2    640
+ 3371: \x86             TUPLE2
+ 3372: r                LONG_BINPUT 275
+ 3377: M                BININT2    640
+ 3380: K                BININT1    1
+ 3382: \x86             TUPLE2
+ 3383: r                LONG_BINPUT 276
+ 3388: \x89             NEWFALSE
+ 3389: h                BINGET     2
+ 3391: )                EMPTY_TUPLE
+ 3392: R                REDUCE
+ 3393: r                LONG_BINPUT 277
+ 3398: t                TUPLE      (MARK at 3331)
+ 3399: r            LONG_BINPUT 278
+ 3404: R            REDUCE
+ 3405: r            LONG_BINPUT 279
+ 3410: X            BINUNICODE 'transformer.h.5.attn.c_proj.weight'
+ 3449: r            LONG_BINPUT 280
+ 3454: h            BINGET     5
+ 3456: (            MARK
+ 3457: (                MARK
+ 3458: h                    BINGET     6
+ 3460: h                    BINGET     7
+ 3462: X                    BINUNICODE '34'
+ 3469: r                    LONG_BINPUT 281
+ 3474: h                    BINGET     9
+ 3476: J                    BININT     409600
+ 3481: t                    TUPLE      (MARK at 3457)
+ 3482: r                LONG_BINPUT 282
+ 3487: Q                BINPERSID
+ 3488: K                BININT1    0
+ 3490: M                BININT2    640
+ 3493: M                BININT2    640
+ 3496: \x86             TUPLE2
+ 3497: r                LONG_BINPUT 283
+ 3502: M                BININT2    640
+ 3505: K                BININT1    1
+ 3507: \x86             TUPLE2
+ 3508: r                LONG_BINPUT 284
+ 3513: \x89             NEWFALSE
+ 3514: h                BINGET     2
+ 3516: )                EMPTY_TUPLE
+ 3517: R                REDUCE
+ 3518: r                LONG_BINPUT 285
+ 3523: t                TUPLE      (MARK at 3456)
+ 3524: r            LONG_BINPUT 286
+ 3529: R            REDUCE
+ 3530: r            LONG_BINPUT 287
+ 3535: X            BINUNICODE 'transformer.h.5.ln_2.weight'
+ 3567: r            LONG_BINPUT 288
+ 3572: h            BINGET     5
+ 3574: (            MARK
+ 3575: (                MARK
+ 3576: h                    BINGET     6
+ 3578: h                    BINGET     7
+ 3580: X                    BINUNICODE '35'
+ 3587: r                    LONG_BINPUT 289
+ 3592: h                    BINGET     9
+ 3594: M                    BININT2    640
+ 3597: t                    TUPLE      (MARK at 3575)
+ 3598: r                LONG_BINPUT 290
+ 3603: Q                BINPERSID
+ 3604: K                BININT1    0
+ 3606: M                BININT2    640
+ 3609: \x85             TUPLE1
+ 3610: r                LONG_BINPUT 291
+ 3615: K                BININT1    1
+ 3617: \x85             TUPLE1
+ 3618: r                LONG_BINPUT 292
+ 3623: \x89             NEWFALSE
+ 3624: h                BINGET     2
+ 3626: )                EMPTY_TUPLE
+ 3627: R                REDUCE
+ 3628: r                LONG_BINPUT 293
+ 3633: t                TUPLE      (MARK at 3574)
+ 3634: r            LONG_BINPUT 294
+ 3639: R            REDUCE
+ 3640: r            LONG_BINPUT 295
+ 3645: X            BINUNICODE 'transformer.h.5.mlp.c_fc.weight'
+ 3681: r            LONG_BINPUT 296
+ 3686: h            BINGET     5
+ 3688: (            MARK
+ 3689: (                MARK
+ 3690: h                    BINGET     6
+ 3692: h                    BINGET     7
+ 3694: X                    BINUNICODE '36'
+ 3701: r                    LONG_BINPUT 297
+ 3706: h                    BINGET     9
+ 3708: J                    BININT     1638400
+ 3713: t                    TUPLE      (MARK at 3689)
+ 3714: r                LONG_BINPUT 298
+ 3719: Q                BINPERSID
+ 3720: K                BININT1    0
+ 3722: M                BININT2    2560
+ 3725: M                BININT2    640
+ 3728: \x86             TUPLE2
+ 3729: r                LONG_BINPUT 299
+ 3734: M                BININT2    640
+ 3737: K                BININT1    1
+ 3739: \x86             TUPLE2
+ 3740: r                LONG_BINPUT 300
+ 3745: \x89             NEWFALSE
+ 3746: h                BINGET     2
+ 3748: )                EMPTY_TUPLE
+ 3749: R                REDUCE
+ 3750: r                LONG_BINPUT 301
+ 3755: t                TUPLE      (MARK at 3688)
+ 3756: r            LONG_BINPUT 302
+ 3761: R            REDUCE
+ 3762: r            LONG_BINPUT 303
+ 3767: X            BINUNICODE 'transformer.h.5.mlp.c_proj.weight'
+ 3805: r            LONG_BINPUT 304
+ 3810: h            BINGET     5
+ 3812: (            MARK
+ 3813: (                MARK
+ 3814: h                    BINGET     6
+ 3816: h                    BINGET     7
+ 3818: X                    BINUNICODE '37'
+ 3825: r                    LONG_BINPUT 305
+ 3830: h                    BINGET     9
+ 3832: J                    BININT     1638400
+ 3837: t                    TUPLE      (MARK at 3813)
+ 3838: r                LONG_BINPUT 306
+ 3843: Q                BINPERSID
+ 3844: K                BININT1    0
+ 3846: M                BININT2    640
+ 3849: M                BININT2    2560
+ 3852: \x86             TUPLE2
+ 3853: r                LONG_BINPUT 307
+ 3858: M                BININT2    2560
+ 3861: K                BININT1    1
+ 3863: \x86             TUPLE2
+ 3864: r                LONG_BINPUT 308
+ 3869: \x89             NEWFALSE
+ 3870: h                BINGET     2
+ 3872: )                EMPTY_TUPLE
+ 3873: R                REDUCE
+ 3874: r                LONG_BINPUT 309
+ 3879: t                TUPLE      (MARK at 3812)
+ 3880: r            LONG_BINPUT 310
+ 3885: R            REDUCE
+ 3886: r            LONG_BINPUT 311
+ 3891: X            BINUNICODE 'transformer.h.6.ln_1.weight'
+ 3923: r            LONG_BINPUT 312
+ 3928: h            BINGET     5
+ 3930: (            MARK
+ 3931: (                MARK
+ 3932: h                    BINGET     6
+ 3934: h                    BINGET     7
+ 3936: X                    BINUNICODE '38'
+ 3943: r                    LONG_BINPUT 313
+ 3948: h                    BINGET     9
+ 3950: M                    BININT2    640
+ 3953: t                    TUPLE      (MARK at 3931)
+ 3954: r                LONG_BINPUT 314
+ 3959: Q                BINPERSID
+ 3960: K                BININT1    0
+ 3962: M                BININT2    640
+ 3965: \x85             TUPLE1
+ 3966: r                LONG_BINPUT 315
+ 3971: K                BININT1    1
+ 3973: \x85             TUPLE1
+ 3974: r                LONG_BINPUT 316
+ 3979: \x89             NEWFALSE
+ 3980: h                BINGET     2
+ 3982: )                EMPTY_TUPLE
+ 3983: R                REDUCE
+ 3984: r                LONG_BINPUT 317
+ 3989: t                TUPLE      (MARK at 3930)
+ 3990: r            LONG_BINPUT 318
+ 3995: R            REDUCE
+ 3996: r            LONG_BINPUT 319
+ 4001: X            BINUNICODE 'transformer.h.6.attn.c_attn.weight'
+ 4040: r            LONG_BINPUT 320
+ 4045: h            BINGET     5
+ 4047: (            MARK
+ 4048: (                MARK
+ 4049: h                    BINGET     6
+ 4051: h                    BINGET     7
+ 4053: X                    BINUNICODE '39'
+ 4060: r                    LONG_BINPUT 321
+ 4065: h                    BINGET     9
+ 4067: J                    BININT     1228800
+ 4072: t                    TUPLE      (MARK at 4048)
+ 4073: r                LONG_BINPUT 322
+ 4078: Q                BINPERSID
+ 4079: K                BININT1    0
+ 4081: M                BININT2    1920
+ 4084: M                BININT2    640
+ 4087: \x86             TUPLE2
+ 4088: r                LONG_BINPUT 323
+ 4093: M                BININT2    640
+ 4096: K                BININT1    1
+ 4098: \x86             TUPLE2
+ 4099: r                LONG_BINPUT 324
+ 4104: \x89             NEWFALSE
+ 4105: h                BINGET     2
+ 4107: )                EMPTY_TUPLE
+ 4108: R                REDUCE
+ 4109: r                LONG_BINPUT 325
+ 4114: t                TUPLE      (MARK at 4047)
+ 4115: r            LONG_BINPUT 326
+ 4120: R            REDUCE
+ 4121: r            LONG_BINPUT 327
+ 4126: X            BINUNICODE 'transformer.h.6.attn.c_proj.weight'
+ 4165: r            LONG_BINPUT 328
+ 4170: h            BINGET     5
+ 4172: (            MARK
+ 4173: (                MARK
+ 4174: h                    BINGET     6
+ 4176: h                    BINGET     7
+ 4178: X                    BINUNICODE '40'
+ 4185: r                    LONG_BINPUT 329
+ 4190: h                    BINGET     9
+ 4192: J                    BININT     409600
+ 4197: t                    TUPLE      (MARK at 4173)
+ 4198: r                LONG_BINPUT 330
+ 4203: Q                BINPERSID
+ 4204: K                BININT1    0
+ 4206: M                BININT2    640
+ 4209: M                BININT2    640
+ 4212: \x86             TUPLE2
+ 4213: r                LONG_BINPUT 331
+ 4218: M                BININT2    640
+ 4221: K                BININT1    1
+ 4223: \x86             TUPLE2
+ 4224: r                LONG_BINPUT 332
+ 4229: \x89             NEWFALSE
+ 4230: h                BINGET     2
+ 4232: )                EMPTY_TUPLE
+ 4233: R                REDUCE
+ 4234: r                LONG_BINPUT 333
+ 4239: t                TUPLE      (MARK at 4172)
+ 4240: r            LONG_BINPUT 334
+ 4245: R            REDUCE
+ 4246: r            LONG_BINPUT 335
+ 4251: X            BINUNICODE 'transformer.h.6.ln_2.weight'
+ 4283: r            LONG_BINPUT 336
+ 4288: h            BINGET     5
+ 4290: (            MARK
+ 4291: (                MARK
+ 4292: h                    BINGET     6
+ 4294: h                    BINGET     7
+ 4296: X                    BINUNICODE '41'
+ 4303: r                    LONG_BINPUT 337
+ 4308: h                    BINGET     9
+ 4310: M                    BININT2    640
+ 4313: t                    TUPLE      (MARK at 4291)
+ 4314: r                LONG_BINPUT 338
+ 4319: Q                BINPERSID
+ 4320: K                BININT1    0
+ 4322: M                BININT2    640
+ 4325: \x85             TUPLE1
+ 4326: r                LONG_BINPUT 339
+ 4331: K                BININT1    1
+ 4333: \x85             TUPLE1
+ 4334: r                LONG_BINPUT 340
+ 4339: \x89             NEWFALSE
+ 4340: h                BINGET     2
+ 4342: )                EMPTY_TUPLE
+ 4343: R                REDUCE
+ 4344: r                LONG_BINPUT 341
+ 4349: t                TUPLE      (MARK at 4290)
+ 4350: r            LONG_BINPUT 342
+ 4355: R            REDUCE
+ 4356: r            LONG_BINPUT 343
+ 4361: X            BINUNICODE 'transformer.h.6.mlp.c_fc.weight'
+ 4397: r            LONG_BINPUT 344
+ 4402: h            BINGET     5
+ 4404: (            MARK
+ 4405: (                MARK
+ 4406: h                    BINGET     6
+ 4408: h                    BINGET     7
+ 4410: X                    BINUNICODE '42'
+ 4417: r                    LONG_BINPUT 345
+ 4422: h                    BINGET     9
+ 4424: J                    BININT     1638400
+ 4429: t                    TUPLE      (MARK at 4405)
+ 4430: r                LONG_BINPUT 346
+ 4435: Q                BINPERSID
+ 4436: K                BININT1    0
+ 4438: M                BININT2    2560
+ 4441: M                BININT2    640
+ 4444: \x86             TUPLE2
+ 4445: r                LONG_BINPUT 347
+ 4450: M                BININT2    640
+ 4453: K                BININT1    1
+ 4455: \x86             TUPLE2
+ 4456: r                LONG_BINPUT 348
+ 4461: \x89             NEWFALSE
+ 4462: h                BINGET     2
+ 4464: )                EMPTY_TUPLE
+ 4465: R                REDUCE
+ 4466: r                LONG_BINPUT 349
+ 4471: t                TUPLE      (MARK at 4404)
+ 4472: r            LONG_BINPUT 350
+ 4477: R            REDUCE
+ 4478: r            LONG_BINPUT 351
+ 4483: X            BINUNICODE 'transformer.h.6.mlp.c_proj.weight'
+ 4521: r            LONG_BINPUT 352
+ 4526: h            BINGET     5
+ 4528: (            MARK
+ 4529: (                MARK
+ 4530: h                    BINGET     6
+ 4532: h                    BINGET     7
+ 4534: X                    BINUNICODE '43'
+ 4541: r                    LONG_BINPUT 353
+ 4546: h                    BINGET     9
+ 4548: J                    BININT     1638400
+ 4553: t                    TUPLE      (MARK at 4529)
+ 4554: r                LONG_BINPUT 354
+ 4559: Q                BINPERSID
+ 4560: K                BININT1    0
+ 4562: M                BININT2    640
+ 4565: M                BININT2    2560
+ 4568: \x86             TUPLE2
+ 4569: r                LONG_BINPUT 355
+ 4574: M                BININT2    2560
+ 4577: K                BININT1    1
+ 4579: \x86             TUPLE2
+ 4580: r                LONG_BINPUT 356
+ 4585: \x89             NEWFALSE
+ 4586: h                BINGET     2
+ 4588: )                EMPTY_TUPLE
+ 4589: R                REDUCE
+ 4590: r                LONG_BINPUT 357
+ 4595: t                TUPLE      (MARK at 4528)
+ 4596: r            LONG_BINPUT 358
+ 4601: R            REDUCE
+ 4602: r            LONG_BINPUT 359
+ 4607: X            BINUNICODE 'transformer.h.7.ln_1.weight'
+ 4639: r            LONG_BINPUT 360
+ 4644: h            BINGET     5
+ 4646: (            MARK
+ 4647: (                MARK
+ 4648: h                    BINGET     6
+ 4650: h                    BINGET     7
+ 4652: X                    BINUNICODE '44'
+ 4659: r                    LONG_BINPUT 361
+ 4664: h                    BINGET     9
+ 4666: M                    BININT2    640
+ 4669: t                    TUPLE      (MARK at 4647)
+ 4670: r                LONG_BINPUT 362
+ 4675: Q                BINPERSID
+ 4676: K                BININT1    0
+ 4678: M                BININT2    640
+ 4681: \x85             TUPLE1
+ 4682: r                LONG_BINPUT 363
+ 4687: K                BININT1    1
+ 4689: \x85             TUPLE1
+ 4690: r                LONG_BINPUT 364
+ 4695: \x89             NEWFALSE
+ 4696: h                BINGET     2
+ 4698: )                EMPTY_TUPLE
+ 4699: R                REDUCE
+ 4700: r                LONG_BINPUT 365
+ 4705: t                TUPLE      (MARK at 4646)
+ 4706: r            LONG_BINPUT 366
+ 4711: R            REDUCE
+ 4712: r            LONG_BINPUT 367
+ 4717: X            BINUNICODE 'transformer.h.7.attn.c_attn.weight'
+ 4756: r            LONG_BINPUT 368
+ 4761: h            BINGET     5
+ 4763: (            MARK
+ 4764: (                MARK
+ 4765: h                    BINGET     6
+ 4767: h                    BINGET     7
+ 4769: X                    BINUNICODE '45'
+ 4776: r                    LONG_BINPUT 369
+ 4781: h                    BINGET     9
+ 4783: J                    BININT     1228800
+ 4788: t                    TUPLE      (MARK at 4764)
+ 4789: r                LONG_BINPUT 370
+ 4794: Q                BINPERSID
+ 4795: K                BININT1    0
+ 4797: M                BININT2    1920
+ 4800: M                BININT2    640
+ 4803: \x86             TUPLE2
+ 4804: r                LONG_BINPUT 371
+ 4809: M                BININT2    640
+ 4812: K                BININT1    1
+ 4814: \x86             TUPLE2
+ 4815: r                LONG_BINPUT 372
+ 4820: \x89             NEWFALSE
+ 4821: h                BINGET     2
+ 4823: )                EMPTY_TUPLE
+ 4824: R                REDUCE
+ 4825: r                LONG_BINPUT 373
+ 4830: t                TUPLE      (MARK at 4763)
+ 4831: r            LONG_BINPUT 374
+ 4836: R            REDUCE
+ 4837: r            LONG_BINPUT 375
+ 4842: X            BINUNICODE 'transformer.h.7.attn.c_proj.weight'
+ 4881: r            LONG_BINPUT 376
+ 4886: h            BINGET     5
+ 4888: (            MARK
+ 4889: (                MARK
+ 4890: h                    BINGET     6
+ 4892: h                    BINGET     7
+ 4894: X                    BINUNICODE '46'
+ 4901: r                    LONG_BINPUT 377
+ 4906: h                    BINGET     9
+ 4908: J                    BININT     409600
+ 4913: t                    TUPLE      (MARK at 4889)
+ 4914: r                LONG_BINPUT 378
+ 4919: Q                BINPERSID
+ 4920: K                BININT1    0
+ 4922: M                BININT2    640
+ 4925: M                BININT2    640
+ 4928: \x86             TUPLE2
+ 4929: r                LONG_BINPUT 379
+ 4934: M                BININT2    640
+ 4937: K                BININT1    1
+ 4939: \x86             TUPLE2
+ 4940: r                LONG_BINPUT 380
+ 4945: \x89             NEWFALSE
+ 4946: h                BINGET     2
+ 4948: )                EMPTY_TUPLE
+ 4949: R                REDUCE
+ 4950: r                LONG_BINPUT 381
+ 4955: t                TUPLE      (MARK at 4888)
+ 4956: r            LONG_BINPUT 382
+ 4961: R            REDUCE
+ 4962: r            LONG_BINPUT 383
+ 4967: X            BINUNICODE 'transformer.h.7.ln_2.weight'
+ 4999: r            LONG_BINPUT 384
+ 5004: h            BINGET     5
+ 5006: (            MARK
+ 5007: (                MARK
+ 5008: h                    BINGET     6
+ 5010: h                    BINGET     7
+ 5012: X                    BINUNICODE '47'
+ 5019: r                    LONG_BINPUT 385
+ 5024: h                    BINGET     9
+ 5026: M                    BININT2    640
+ 5029: t                    TUPLE      (MARK at 5007)
+ 5030: r                LONG_BINPUT 386
+ 5035: Q                BINPERSID
+ 5036: K                BININT1    0
+ 5038: M                BININT2    640
+ 5041: \x85             TUPLE1
+ 5042: r                LONG_BINPUT 387
+ 5047: K                BININT1    1
+ 5049: \x85             TUPLE1
+ 5050: r                LONG_BINPUT 388
+ 5055: \x89             NEWFALSE
+ 5056: h                BINGET     2
+ 5058: )                EMPTY_TUPLE
+ 5059: R                REDUCE
+ 5060: r                LONG_BINPUT 389
+ 5065: t                TUPLE      (MARK at 5006)
+ 5066: r            LONG_BINPUT 390
+ 5071: R            REDUCE
+ 5072: r            LONG_BINPUT 391
+ 5077: X            BINUNICODE 'transformer.h.7.mlp.c_fc.weight'
+ 5113: r            LONG_BINPUT 392
+ 5118: h            BINGET     5
+ 5120: (            MARK
+ 5121: (                MARK
+ 5122: h                    BINGET     6
+ 5124: h                    BINGET     7
+ 5126: X                    BINUNICODE '48'
+ 5133: r                    LONG_BINPUT 393
+ 5138: h                    BINGET     9
+ 5140: J                    BININT     1638400
+ 5145: t                    TUPLE      (MARK at 5121)
+ 5146: r                LONG_BINPUT 394
+ 5151: Q                BINPERSID
+ 5152: K                BININT1    0
+ 5154: M                BININT2    2560
+ 5157: M                BININT2    640
+ 5160: \x86             TUPLE2
+ 5161: r                LONG_BINPUT 395
+ 5166: M                BININT2    640
+ 5169: K                BININT1    1
+ 5171: \x86             TUPLE2
+ 5172: r                LONG_BINPUT 396
+ 5177: \x89             NEWFALSE
+ 5178: h                BINGET     2
+ 5180: )                EMPTY_TUPLE
+ 5181: R                REDUCE
+ 5182: r                LONG_BINPUT 397
+ 5187: t                TUPLE      (MARK at 5120)
+ 5188: r            LONG_BINPUT 398
+ 5193: R            REDUCE
+ 5194: r            LONG_BINPUT 399
+ 5199: X            BINUNICODE 'transformer.h.7.mlp.c_proj.weight'
+ 5237: r            LONG_BINPUT 400
+ 5242: h            BINGET     5
+ 5244: (            MARK
+ 5245: (                MARK
+ 5246: h                    BINGET     6
+ 5248: h                    BINGET     7
+ 5250: X                    BINUNICODE '49'
+ 5257: r                    LONG_BINPUT 401
+ 5262: h                    BINGET     9
+ 5264: J                    BININT     1638400
+ 5269: t                    TUPLE      (MARK at 5245)
+ 5270: r                LONG_BINPUT 402
+ 5275: Q                BINPERSID
+ 5276: K                BININT1    0
+ 5278: M                BININT2    640
+ 5281: M                BININT2    2560
+ 5284: \x86             TUPLE2
+ 5285: r                LONG_BINPUT 403
+ 5290: M                BININT2    2560
+ 5293: K                BININT1    1
+ 5295: \x86             TUPLE2
+ 5296: r                LONG_BINPUT 404
+ 5301: \x89             NEWFALSE
+ 5302: h                BINGET     2
+ 5304: )                EMPTY_TUPLE
+ 5305: R                REDUCE
+ 5306: r                LONG_BINPUT 405
+ 5311: t                TUPLE      (MARK at 5244)
+ 5312: r            LONG_BINPUT 406
+ 5317: R            REDUCE
+ 5318: r            LONG_BINPUT 407
+ 5323: X            BINUNICODE 'transformer.h.8.ln_1.weight'
+ 5355: r            LONG_BINPUT 408
+ 5360: h            BINGET     5
+ 5362: (            MARK
+ 5363: (                MARK
+ 5364: h                    BINGET     6
+ 5366: h                    BINGET     7
+ 5368: X                    BINUNICODE '50'
+ 5375: r                    LONG_BINPUT 409
+ 5380: h                    BINGET     9
+ 5382: M                    BININT2    640
+ 5385: t                    TUPLE      (MARK at 5363)
+ 5386: r                LONG_BINPUT 410
+ 5391: Q                BINPERSID
+ 5392: K                BININT1    0
+ 5394: M                BININT2    640
+ 5397: \x85             TUPLE1
+ 5398: r                LONG_BINPUT 411
+ 5403: K                BININT1    1
+ 5405: \x85             TUPLE1
+ 5406: r                LONG_BINPUT 412
+ 5411: \x89             NEWFALSE
+ 5412: h                BINGET     2
+ 5414: )                EMPTY_TUPLE
+ 5415: R                REDUCE
+ 5416: r                LONG_BINPUT 413
+ 5421: t                TUPLE      (MARK at 5362)
+ 5422: r            LONG_BINPUT 414
+ 5427: R            REDUCE
+ 5428: r            LONG_BINPUT 415
+ 5433: X            BINUNICODE 'transformer.h.8.attn.c_attn.weight'
+ 5472: r            LONG_BINPUT 416
+ 5477: h            BINGET     5
+ 5479: (            MARK
+ 5480: (                MARK
+ 5481: h                    BINGET     6
+ 5483: h                    BINGET     7
+ 5485: X                    BINUNICODE '51'
+ 5492: r                    LONG_BINPUT 417
+ 5497: h                    BINGET     9
+ 5499: J                    BININT     1228800
+ 5504: t                    TUPLE      (MARK at 5480)
+ 5505: r                LONG_BINPUT 418
+ 5510: Q                BINPERSID
+ 5511: K                BININT1    0
+ 5513: M                BININT2    1920
+ 5516: M                BININT2    640
+ 5519: \x86             TUPLE2
+ 5520: r                LONG_BINPUT 419
+ 5525: M                BININT2    640
+ 5528: K                BININT1    1
+ 5530: \x86             TUPLE2
+ 5531: r                LONG_BINPUT 420
+ 5536: \x89             NEWFALSE
+ 5537: h                BINGET     2
+ 5539: )                EMPTY_TUPLE
+ 5540: R                REDUCE
+ 5541: r                LONG_BINPUT 421
+ 5546: t                TUPLE      (MARK at 5479)
+ 5547: r            LONG_BINPUT 422
+ 5552: R            REDUCE
+ 5553: r            LONG_BINPUT 423
+ 5558: X            BINUNICODE 'transformer.h.8.attn.c_proj.weight'
+ 5597: r            LONG_BINPUT 424
+ 5602: h            BINGET     5
+ 5604: (            MARK
+ 5605: (                MARK
+ 5606: h                    BINGET     6
+ 5608: h                    BINGET     7
+ 5610: X                    BINUNICODE '52'
+ 5617: r                    LONG_BINPUT 425
+ 5622: h                    BINGET     9
+ 5624: J                    BININT     409600
+ 5629: t                    TUPLE      (MARK at 5605)
+ 5630: r                LONG_BINPUT 426
+ 5635: Q                BINPERSID
+ 5636: K                BININT1    0
+ 5638: M                BININT2    640
+ 5641: M                BININT2    640
+ 5644: \x86             TUPLE2
+ 5645: r                LONG_BINPUT 427
+ 5650: M                BININT2    640
+ 5653: K                BININT1    1
+ 5655: \x86             TUPLE2
+ 5656: r                LONG_BINPUT 428
+ 5661: \x89             NEWFALSE
+ 5662: h                BINGET     2
+ 5664: )                EMPTY_TUPLE
+ 5665: R                REDUCE
+ 5666: r                LONG_BINPUT 429
+ 5671: t                TUPLE      (MARK at 5604)
+ 5672: r            LONG_BINPUT 430
+ 5677: R            REDUCE
+ 5678: r            LONG_BINPUT 431
+ 5683: X            BINUNICODE 'transformer.h.8.ln_2.weight'
+ 5715: r            LONG_BINPUT 432
+ 5720: h            BINGET     5
+ 5722: (            MARK
+ 5723: (                MARK
+ 5724: h                    BINGET     6
+ 5726: h                    BINGET     7
+ 5728: X                    BINUNICODE '53'
+ 5735: r                    LONG_BINPUT 433
+ 5740: h                    BINGET     9
+ 5742: M                    BININT2    640
+ 5745: t                    TUPLE      (MARK at 5723)
+ 5746: r                LONG_BINPUT 434
+ 5751: Q                BINPERSID
+ 5752: K                BININT1    0
+ 5754: M                BININT2    640
+ 5757: \x85             TUPLE1
+ 5758: r                LONG_BINPUT 435
+ 5763: K                BININT1    1
+ 5765: \x85             TUPLE1
+ 5766: r                LONG_BINPUT 436
+ 5771: \x89             NEWFALSE
+ 5772: h                BINGET     2
+ 5774: )                EMPTY_TUPLE
+ 5775: R                REDUCE
+ 5776: r                LONG_BINPUT 437
+ 5781: t                TUPLE      (MARK at 5722)
+ 5782: r            LONG_BINPUT 438
+ 5787: R            REDUCE
+ 5788: r            LONG_BINPUT 439
+ 5793: X            BINUNICODE 'transformer.h.8.mlp.c_fc.weight'
+ 5829: r            LONG_BINPUT 440
+ 5834: h            BINGET     5
+ 5836: (            MARK
+ 5837: (                MARK
+ 5838: h                    BINGET     6
+ 5840: h                    BINGET     7
+ 5842: X                    BINUNICODE '54'
+ 5849: r                    LONG_BINPUT 441
+ 5854: h                    BINGET     9
+ 5856: J                    BININT     1638400
+ 5861: t                    TUPLE      (MARK at 5837)
+ 5862: r                LONG_BINPUT 442
+ 5867: Q                BINPERSID
+ 5868: K                BININT1    0
+ 5870: M                BININT2    2560
+ 5873: M                BININT2    640
+ 5876: \x86             TUPLE2
+ 5877: r                LONG_BINPUT 443
+ 5882: M                BININT2    640
+ 5885: K                BININT1    1
+ 5887: \x86             TUPLE2
+ 5888: r                LONG_BINPUT 444
+ 5893: \x89             NEWFALSE
+ 5894: h                BINGET     2
+ 5896: )                EMPTY_TUPLE
+ 5897: R                REDUCE
+ 5898: r                LONG_BINPUT 445
+ 5903: t                TUPLE      (MARK at 5836)
+ 5904: r            LONG_BINPUT 446
+ 5909: R            REDUCE
+ 5910: r            LONG_BINPUT 447
+ 5915: X            BINUNICODE 'transformer.h.8.mlp.c_proj.weight'
+ 5953: r            LONG_BINPUT 448
+ 5958: h            BINGET     5
+ 5960: (            MARK
+ 5961: (                MARK
+ 5962: h                    BINGET     6
+ 5964: h                    BINGET     7
+ 5966: X                    BINUNICODE '55'
+ 5973: r                    LONG_BINPUT 449
+ 5978: h                    BINGET     9
+ 5980: J                    BININT     1638400
+ 5985: t                    TUPLE      (MARK at 5961)
+ 5986: r                LONG_BINPUT 450
+ 5991: Q                BINPERSID
+ 5992: K                BININT1    0
+ 5994: M                BININT2    640
+ 5997: M                BININT2    2560
+ 6000: \x86             TUPLE2
+ 6001: r                LONG_BINPUT 451
+ 6006: M                BININT2    2560
+ 6009: K                BININT1    1
+ 6011: \x86             TUPLE2
+ 6012: r                LONG_BINPUT 452
+ 6017: \x89             NEWFALSE
+ 6018: h                BINGET     2
+ 6020: )                EMPTY_TUPLE
+ 6021: R                REDUCE
+ 6022: r                LONG_BINPUT 453
+ 6027: t                TUPLE      (MARK at 5960)
+ 6028: r            LONG_BINPUT 454
+ 6033: R            REDUCE
+ 6034: r            LONG_BINPUT 455
+ 6039: X            BINUNICODE 'transformer.h.9.ln_1.weight'
+ 6071: r            LONG_BINPUT 456
+ 6076: h            BINGET     5
+ 6078: (            MARK
+ 6079: (                MARK
+ 6080: h                    BINGET     6
+ 6082: h                    BINGET     7
+ 6084: X                    BINUNICODE '56'
+ 6091: r                    LONG_BINPUT 457
+ 6096: h                    BINGET     9
+ 6098: M                    BININT2    640
+ 6101: t                    TUPLE      (MARK at 6079)
+ 6102: r                LONG_BINPUT 458
+ 6107: Q                BINPERSID
+ 6108: K                BININT1    0
+ 6110: M                BININT2    640
+ 6113: \x85             TUPLE1
+ 6114: r                LONG_BINPUT 459
+ 6119: K                BININT1    1
+ 6121: \x85             TUPLE1
+ 6122: r                LONG_BINPUT 460
+ 6127: \x89             NEWFALSE
+ 6128: h                BINGET     2
+ 6130: )                EMPTY_TUPLE
+ 6131: R                REDUCE
+ 6132: r                LONG_BINPUT 461
+ 6137: t                TUPLE      (MARK at 6078)
+ 6138: r            LONG_BINPUT 462
+ 6143: R            REDUCE
+ 6144: r            LONG_BINPUT 463
+ 6149: X            BINUNICODE 'transformer.h.9.attn.c_attn.weight'
+ 6188: r            LONG_BINPUT 464
+ 6193: h            BINGET     5
+ 6195: (            MARK
+ 6196: (                MARK
+ 6197: h                    BINGET     6
+ 6199: h                    BINGET     7
+ 6201: X                    BINUNICODE '57'
+ 6208: r                    LONG_BINPUT 465
+ 6213: h                    BINGET     9
+ 6215: J                    BININT     1228800
+ 6220: t                    TUPLE      (MARK at 6196)
+ 6221: r                LONG_BINPUT 466
+ 6226: Q                BINPERSID
+ 6227: K                BININT1    0
+ 6229: M                BININT2    1920
+ 6232: M                BININT2    640
+ 6235: \x86             TUPLE2
+ 6236: r                LONG_BINPUT 467
+ 6241: M                BININT2    640
+ 6244: K                BININT1    1
+ 6246: \x86             TUPLE2
+ 6247: r                LONG_BINPUT 468
+ 6252: \x89             NEWFALSE
+ 6253: h                BINGET     2
+ 6255: )                EMPTY_TUPLE
+ 6256: R                REDUCE
+ 6257: r                LONG_BINPUT 469
+ 6262: t                TUPLE      (MARK at 6195)
+ 6263: r            LONG_BINPUT 470
+ 6268: R            REDUCE
+ 6269: r            LONG_BINPUT 471
+ 6274: X            BINUNICODE 'transformer.h.9.attn.c_proj.weight'
+ 6313: r            LONG_BINPUT 472
+ 6318: h            BINGET     5
+ 6320: (            MARK
+ 6321: (                MARK
+ 6322: h                    BINGET     6
+ 6324: h                    BINGET     7
+ 6326: X                    BINUNICODE '58'
+ 6333: r                    LONG_BINPUT 473
+ 6338: h                    BINGET     9
+ 6340: J                    BININT     409600
+ 6345: t                    TUPLE      (MARK at 6321)
+ 6346: r                LONG_BINPUT 474
+ 6351: Q                BINPERSID
+ 6352: K                BININT1    0
+ 6354: M                BININT2    640
+ 6357: M                BININT2    640
+ 6360: \x86             TUPLE2
+ 6361: r                LONG_BINPUT 475
+ 6366: M                BININT2    640
+ 6369: K                BININT1    1
+ 6371: \x86             TUPLE2
+ 6372: r                LONG_BINPUT 476
+ 6377: \x89             NEWFALSE
+ 6378: h                BINGET     2
+ 6380: )                EMPTY_TUPLE
+ 6381: R                REDUCE
+ 6382: r                LONG_BINPUT 477
+ 6387: t                TUPLE      (MARK at 6320)
+ 6388: r            LONG_BINPUT 478
+ 6393: R            REDUCE
+ 6394: r            LONG_BINPUT 479
+ 6399: X            BINUNICODE 'transformer.h.9.ln_2.weight'
+ 6431: r            LONG_BINPUT 480
+ 6436: h            BINGET     5
+ 6438: (            MARK
+ 6439: (                MARK
+ 6440: h                    BINGET     6
+ 6442: h                    BINGET     7
+ 6444: X                    BINUNICODE '59'
+ 6451: r                    LONG_BINPUT 481
+ 6456: h                    BINGET     9
+ 6458: M                    BININT2    640
+ 6461: t                    TUPLE      (MARK at 6439)
+ 6462: r                LONG_BINPUT 482
+ 6467: Q                BINPERSID
+ 6468: K                BININT1    0
+ 6470: M                BININT2    640
+ 6473: \x85             TUPLE1
+ 6474: r                LONG_BINPUT 483
+ 6479: K                BININT1    1
+ 6481: \x85             TUPLE1
+ 6482: r                LONG_BINPUT 484
+ 6487: \x89             NEWFALSE
+ 6488: h                BINGET     2
+ 6490: )                EMPTY_TUPLE
+ 6491: R                REDUCE
+ 6492: r                LONG_BINPUT 485
+ 6497: t                TUPLE      (MARK at 6438)
+ 6498: r            LONG_BINPUT 486
+ 6503: R            REDUCE
+ 6504: r            LONG_BINPUT 487
+ 6509: X            BINUNICODE 'transformer.h.9.mlp.c_fc.weight'
+ 6545: r            LONG_BINPUT 488
+ 6550: h            BINGET     5
+ 6552: (            MARK
+ 6553: (                MARK
+ 6554: h                    BINGET     6
+ 6556: h                    BINGET     7
+ 6558: X                    BINUNICODE '60'
+ 6565: r                    LONG_BINPUT 489
+ 6570: h                    BINGET     9
+ 6572: J                    BININT     1638400
+ 6577: t                    TUPLE      (MARK at 6553)
+ 6578: r                LONG_BINPUT 490
+ 6583: Q                BINPERSID
+ 6584: K                BININT1    0
+ 6586: M                BININT2    2560
+ 6589: M                BININT2    640
+ 6592: \x86             TUPLE2
+ 6593: r                LONG_BINPUT 491
+ 6598: M                BININT2    640
+ 6601: K                BININT1    1
+ 6603: \x86             TUPLE2
+ 6604: r                LONG_BINPUT 492
+ 6609: \x89             NEWFALSE
+ 6610: h                BINGET     2
+ 6612: )                EMPTY_TUPLE
+ 6613: R                REDUCE
+ 6614: r                LONG_BINPUT 493
+ 6619: t                TUPLE      (MARK at 6552)
+ 6620: r            LONG_BINPUT 494
+ 6625: R            REDUCE
+ 6626: r            LONG_BINPUT 495
+ 6631: X            BINUNICODE 'transformer.h.9.mlp.c_proj.weight'
+ 6669: r            LONG_BINPUT 496
+ 6674: h            BINGET     5
+ 6676: (            MARK
+ 6677: (                MARK
+ 6678: h                    BINGET     6
+ 6680: h                    BINGET     7
+ 6682: X                    BINUNICODE '61'
+ 6689: r                    LONG_BINPUT 497
+ 6694: h                    BINGET     9
+ 6696: J                    BININT     1638400
+ 6701: t                    TUPLE      (MARK at 6677)
+ 6702: r                LONG_BINPUT 498
+ 6707: Q                BINPERSID
+ 6708: K                BININT1    0
+ 6710: M                BININT2    640
+ 6713: M                BININT2    2560
+ 6716: \x86             TUPLE2
+ 6717: r                LONG_BINPUT 499
+ 6722: M                BININT2    2560
+ 6725: K                BININT1    1
+ 6727: \x86             TUPLE2
+ 6728: r                LONG_BINPUT 500
+ 6733: \x89             NEWFALSE
+ 6734: h                BINGET     2
+ 6736: )                EMPTY_TUPLE
+ 6737: R                REDUCE
+ 6738: r                LONG_BINPUT 501
+ 6743: t                TUPLE      (MARK at 6676)
+ 6744: r            LONG_BINPUT 502
+ 6749: R            REDUCE
+ 6750: r            LONG_BINPUT 503
+ 6755: X            BINUNICODE 'transformer.ln_f.weight'
+ 6783: r            LONG_BINPUT 504
+ 6788: h            BINGET     5
+ 6790: (            MARK
+ 6791: (                MARK
+ 6792: h                    BINGET     6
+ 6794: h                    BINGET     7
+ 6796: X                    BINUNICODE '62'
+ 6803: r                    LONG_BINPUT 505
+ 6808: h                    BINGET     9
+ 6810: M                    BININT2    640
+ 6813: t                    TUPLE      (MARK at 6791)
+ 6814: r                LONG_BINPUT 506
+ 6819: Q                BINPERSID
+ 6820: K                BININT1    0
+ 6822: M                BININT2    640
+ 6825: \x85             TUPLE1
+ 6826: r                LONG_BINPUT 507
+ 6831: K                BININT1    1
+ 6833: \x85             TUPLE1
+ 6834: r                LONG_BINPUT 508
+ 6839: \x89             NEWFALSE
+ 6840: h                BINGET     2
+ 6842: )                EMPTY_TUPLE
+ 6843: R                REDUCE
+ 6844: r                LONG_BINPUT 509
+ 6849: t                TUPLE      (MARK at 6790)
+ 6850: r            LONG_BINPUT 510
+ 6855: R            REDUCE
+ 6856: r            LONG_BINPUT 511
+ 6861: X            BINUNICODE 'lm_head.weight'
+ 6880: r            LONG_BINPUT 512
+ 6885: h            BINGET     5
+ 6887: (            MARK
+ 6888: (                MARK
+ 6889: h                    BINGET     6
+ 6891: h                    BINGET     7
+ 6893: h                    BINGET     8
+ 6895: h                    BINGET     9
+ 6897: J                    BININT     167680
+ 6902: t                    TUPLE      (MARK at 6888)
+ 6903: r                LONG_BINPUT 513
+ 6908: Q                BINPERSID
+ 6909: K                BININT1    0
+ 6911: M                BININT2    262
+ 6914: M                BININT2    640
+ 6917: \x86             TUPLE2
+ 6918: r                LONG_BINPUT 514
+ 6923: M                BININT2    640
+ 6926: K                BININT1    1
+ 6928: \x86             TUPLE2
+ 6929: r                LONG_BINPUT 515
+ 6934: \x89             NEWFALSE
+ 6935: h                BINGET     2
+ 6937: )                EMPTY_TUPLE
+ 6938: R                REDUCE
+ 6939: r                LONG_BINPUT 516
+ 6944: t                TUPLE      (MARK at 6887)
+ 6945: r            LONG_BINPUT 517
+ 6950: R            REDUCE
+ 6951: r            LONG_BINPUT 518
+ 6956: u            SETITEMS   (MARK at 49)
+ 6957: }        EMPTY_DICT
+ 6958: r        LONG_BINPUT 519
+ 6963: X        BINUNICODE '_metadata'
+ 6977: r        LONG_BINPUT 520
+ 6982: h        BINGET     2
+ 6984: )        EMPTY_TUPLE
+ 6985: R        REDUCE
+ 6986: r        LONG_BINPUT 521
+ 6991: (        MARK
+ 6992: X            BINUNICODE ''
+ 6997: r            LONG_BINPUT 522
+ 7002: }            EMPTY_DICT
+ 7003: r            LONG_BINPUT 523
+ 7008: X            BINUNICODE 'version'
+ 7020: r            LONG_BINPUT 524
+ 7025: K            BININT1    1
+ 7027: s            SETITEM
+ 7028: X            BINUNICODE 'transformer'
+ 7044: r            LONG_BINPUT 525
+ 7049: }            EMPTY_DICT
+ 7050: r            LONG_BINPUT 526
+ 7055: j            LONG_BINGET 524
+ 7060: K            BININT1    1
+ 7062: s            SETITEM
+ 7063: X            BINUNICODE 'transformer.wte'
+ 7083: r            LONG_BINPUT 527
+ 7088: }            EMPTY_DICT
+ 7089: r            LONG_BINPUT 528
+ 7094: j            LONG_BINGET 524
+ 7099: K            BININT1    1
+ 7101: s            SETITEM
+ 7102: X            BINUNICODE 'transformer.wpe'
+ 7122: r            LONG_BINPUT 529
+ 7127: }            EMPTY_DICT
+ 7128: r            LONG_BINPUT 530
+ 7133: j            LONG_BINGET 524
+ 7138: K            BININT1    1
+ 7140: s            SETITEM
+ 7141: X            BINUNICODE 'transformer.drop'
+ 7162: r            LONG_BINPUT 531
+ 7167: }            EMPTY_DICT
+ 7168: r            LONG_BINPUT 532
+ 7173: j            LONG_BINGET 524
+ 7178: K            BININT1    1
+ 7180: s            SETITEM
+ 7181: X            BINUNICODE 'transformer.h'
+ 7199: r            LONG_BINPUT 533
+ 7204: }            EMPTY_DICT
+ 7205: r            LONG_BINPUT 534
+ 7210: j            LONG_BINGET 524
+ 7215: K            BININT1    1
+ 7217: s            SETITEM
+ 7218: X            BINUNICODE 'transformer.h.0'
+ 7238: r            LONG_BINPUT 535
+ 7243: }            EMPTY_DICT
+ 7244: r            LONG_BINPUT 536
+ 7249: j            LONG_BINGET 524
+ 7254: K            BININT1    1
+ 7256: s            SETITEM
+ 7257: X            BINUNICODE 'transformer.h.0.ln_1'
+ 7282: r            LONG_BINPUT 537
+ 7287: }            EMPTY_DICT
+ 7288: r            LONG_BINPUT 538
+ 7293: j            LONG_BINGET 524
+ 7298: K            BININT1    1
+ 7300: s            SETITEM
+ 7301: X            BINUNICODE 'transformer.h.0.attn'
+ 7326: r            LONG_BINPUT 539
+ 7331: }            EMPTY_DICT
+ 7332: r            LONG_BINPUT 540
+ 7337: j            LONG_BINGET 524
+ 7342: K            BININT1    1
+ 7344: s            SETITEM
+ 7345: X            BINUNICODE 'transformer.h.0.attn.c_attn'
+ 7377: r            LONG_BINPUT 541
+ 7382: }            EMPTY_DICT
+ 7383: r            LONG_BINPUT 542
+ 7388: j            LONG_BINGET 524
+ 7393: K            BININT1    1
+ 7395: s            SETITEM
+ 7396: X            BINUNICODE 'transformer.h.0.attn.c_proj'
+ 7428: r            LONG_BINPUT 543
+ 7433: }            EMPTY_DICT
+ 7434: r            LONG_BINPUT 544
+ 7439: j            LONG_BINGET 524
+ 7444: K            BININT1    1
+ 7446: s            SETITEM
+ 7447: X            BINUNICODE 'transformer.h.0.attn.resid_dropout'
+ 7486: r            LONG_BINPUT 545
+ 7491: }            EMPTY_DICT
+ 7492: r            LONG_BINPUT 546
+ 7497: j            LONG_BINGET 524
+ 7502: K            BININT1    1
+ 7504: s            SETITEM
+ 7505: X            BINUNICODE 'transformer.h.0.ln_2'
+ 7530: r            LONG_BINPUT 547
+ 7535: }            EMPTY_DICT
+ 7536: r            LONG_BINPUT 548
+ 7541: j            LONG_BINGET 524
+ 7546: K            BININT1    1
+ 7548: s            SETITEM
+ 7549: X            BINUNICODE 'transformer.h.0.mlp'
+ 7573: r            LONG_BINPUT 549
+ 7578: }            EMPTY_DICT
+ 7579: r            LONG_BINPUT 550
+ 7584: j            LONG_BINGET 524
+ 7589: K            BININT1    1
+ 7591: s            SETITEM
+ 7592: X            BINUNICODE 'transformer.h.0.mlp.c_fc'
+ 7621: r            LONG_BINPUT 551
+ 7626: }            EMPTY_DICT
+ 7627: r            LONG_BINPUT 552
+ 7632: j            LONG_BINGET 524
+ 7637: K            BININT1    1
+ 7639: s            SETITEM
+ 7640: X            BINUNICODE 'transformer.h.0.mlp.gelu'
+ 7669: r            LONG_BINPUT 553
+ 7674: }            EMPTY_DICT
+ 7675: r            LONG_BINPUT 554
+ 7680: j            LONG_BINGET 524
+ 7685: K            BININT1    1
+ 7687: s            SETITEM
+ 7688: X            BINUNICODE 'transformer.h.0.mlp.c_proj'
+ 7719: r            LONG_BINPUT 555
+ 7724: }            EMPTY_DICT
+ 7725: r            LONG_BINPUT 556
+ 7730: j            LONG_BINGET 524
+ 7735: K            BININT1    1
+ 7737: s            SETITEM
+ 7738: X            BINUNICODE 'transformer.h.0.mlp.dropout'
+ 7770: r            LONG_BINPUT 557
+ 7775: }            EMPTY_DICT
+ 7776: r            LONG_BINPUT 558
+ 7781: j            LONG_BINGET 524
+ 7786: K            BININT1    1
+ 7788: s            SETITEM
+ 7789: X            BINUNICODE 'transformer.h.1'
+ 7809: r            LONG_BINPUT 559
+ 7814: }            EMPTY_DICT
+ 7815: r            LONG_BINPUT 560
+ 7820: j            LONG_BINGET 524
+ 7825: K            BININT1    1
+ 7827: s            SETITEM
+ 7828: X            BINUNICODE 'transformer.h.1.ln_1'
+ 7853: r            LONG_BINPUT 561
+ 7858: }            EMPTY_DICT
+ 7859: r            LONG_BINPUT 562
+ 7864: j            LONG_BINGET 524
+ 7869: K            BININT1    1
+ 7871: s            SETITEM
+ 7872: X            BINUNICODE 'transformer.h.1.attn'
+ 7897: r            LONG_BINPUT 563
+ 7902: }            EMPTY_DICT
+ 7903: r            LONG_BINPUT 564
+ 7908: j            LONG_BINGET 524
+ 7913: K            BININT1    1
+ 7915: s            SETITEM
+ 7916: X            BINUNICODE 'transformer.h.1.attn.c_attn'
+ 7948: r            LONG_BINPUT 565
+ 7953: }            EMPTY_DICT
+ 7954: r            LONG_BINPUT 566
+ 7959: j            LONG_BINGET 524
+ 7964: K            BININT1    1
+ 7966: s            SETITEM
+ 7967: X            BINUNICODE 'transformer.h.1.attn.c_proj'
+ 7999: r            LONG_BINPUT 567
+ 8004: }            EMPTY_DICT
+ 8005: r            LONG_BINPUT 568
+ 8010: j            LONG_BINGET 524
+ 8015: K            BININT1    1
+ 8017: s            SETITEM
+ 8018: X            BINUNICODE 'transformer.h.1.attn.resid_dropout'
+ 8057: r            LONG_BINPUT 569
+ 8062: }            EMPTY_DICT
+ 8063: r            LONG_BINPUT 570
+ 8068: j            LONG_BINGET 524
+ 8073: K            BININT1    1
+ 8075: s            SETITEM
+ 8076: X            BINUNICODE 'transformer.h.1.ln_2'
+ 8101: r            LONG_BINPUT 571
+ 8106: }            EMPTY_DICT
+ 8107: r            LONG_BINPUT 572
+ 8112: j            LONG_BINGET 524
+ 8117: K            BININT1    1
+ 8119: s            SETITEM
+ 8120: X            BINUNICODE 'transformer.h.1.mlp'
+ 8144: r            LONG_BINPUT 573
+ 8149: }            EMPTY_DICT
+ 8150: r            LONG_BINPUT 574
+ 8155: j            LONG_BINGET 524
+ 8160: K            BININT1    1
+ 8162: s            SETITEM
+ 8163: X            BINUNICODE 'transformer.h.1.mlp.c_fc'
+ 8192: r            LONG_BINPUT 575
+ 8197: }            EMPTY_DICT
+ 8198: r            LONG_BINPUT 576
+ 8203: j            LONG_BINGET 524
+ 8208: K            BININT1    1
+ 8210: s            SETITEM
+ 8211: X            BINUNICODE 'transformer.h.1.mlp.gelu'
+ 8240: r            LONG_BINPUT 577
+ 8245: }            EMPTY_DICT
+ 8246: r            LONG_BINPUT 578
+ 8251: j            LONG_BINGET 524
+ 8256: K            BININT1    1
+ 8258: s            SETITEM
+ 8259: X            BINUNICODE 'transformer.h.1.mlp.c_proj'
+ 8290: r            LONG_BINPUT 579
+ 8295: }            EMPTY_DICT
+ 8296: r            LONG_BINPUT 580
+ 8301: j            LONG_BINGET 524
+ 8306: K            BININT1    1
+ 8308: s            SETITEM
+ 8309: X            BINUNICODE 'transformer.h.1.mlp.dropout'
+ 8341: r            LONG_BINPUT 581
+ 8346: }            EMPTY_DICT
+ 8347: r            LONG_BINPUT 582
+ 8352: j            LONG_BINGET 524
+ 8357: K            BININT1    1
+ 8359: s            SETITEM
+ 8360: X            BINUNICODE 'transformer.h.2'
+ 8380: r            LONG_BINPUT 583
+ 8385: }            EMPTY_DICT
+ 8386: r            LONG_BINPUT 584
+ 8391: j            LONG_BINGET 524
+ 8396: K            BININT1    1
+ 8398: s            SETITEM
+ 8399: X            BINUNICODE 'transformer.h.2.ln_1'
+ 8424: r            LONG_BINPUT 585
+ 8429: }            EMPTY_DICT
+ 8430: r            LONG_BINPUT 586
+ 8435: j            LONG_BINGET 524
+ 8440: K            BININT1    1
+ 8442: s            SETITEM
+ 8443: X            BINUNICODE 'transformer.h.2.attn'
+ 8468: r            LONG_BINPUT 587
+ 8473: }            EMPTY_DICT
+ 8474: r            LONG_BINPUT 588
+ 8479: j            LONG_BINGET 524
+ 8484: K            BININT1    1
+ 8486: s            SETITEM
+ 8487: X            BINUNICODE 'transformer.h.2.attn.c_attn'
+ 8519: r            LONG_BINPUT 589
+ 8524: }            EMPTY_DICT
+ 8525: r            LONG_BINPUT 590
+ 8530: j            LONG_BINGET 524
+ 8535: K            BININT1    1
+ 8537: s            SETITEM
+ 8538: X            BINUNICODE 'transformer.h.2.attn.c_proj'
+ 8570: r            LONG_BINPUT 591
+ 8575: }            EMPTY_DICT
+ 8576: r            LONG_BINPUT 592
+ 8581: j            LONG_BINGET 524
+ 8586: K            BININT1    1
+ 8588: s            SETITEM
+ 8589: X            BINUNICODE 'transformer.h.2.attn.resid_dropout'
+ 8628: r            LONG_BINPUT 593
+ 8633: }            EMPTY_DICT
+ 8634: r            LONG_BINPUT 594
+ 8639: j            LONG_BINGET 524
+ 8644: K            BININT1    1
+ 8646: s            SETITEM
+ 8647: X            BINUNICODE 'transformer.h.2.ln_2'
+ 8672: r            LONG_BINPUT 595
+ 8677: }            EMPTY_DICT
+ 8678: r            LONG_BINPUT 596
+ 8683: j            LONG_BINGET 524
+ 8688: K            BININT1    1
+ 8690: s            SETITEM
+ 8691: X            BINUNICODE 'transformer.h.2.mlp'
+ 8715: r            LONG_BINPUT 597
+ 8720: }            EMPTY_DICT
+ 8721: r            LONG_BINPUT 598
+ 8726: j            LONG_BINGET 524
+ 8731: K            BININT1    1
+ 8733: s            SETITEM
+ 8734: X            BINUNICODE 'transformer.h.2.mlp.c_fc'
+ 8763: r            LONG_BINPUT 599
+ 8768: }            EMPTY_DICT
+ 8769: r            LONG_BINPUT 600
+ 8774: j            LONG_BINGET 524
+ 8779: K            BININT1    1
+ 8781: s            SETITEM
+ 8782: X            BINUNICODE 'transformer.h.2.mlp.gelu'
+ 8811: r            LONG_BINPUT 601
+ 8816: }            EMPTY_DICT
+ 8817: r            LONG_BINPUT 602
+ 8822: j            LONG_BINGET 524
+ 8827: K            BININT1    1
+ 8829: s            SETITEM
+ 8830: X            BINUNICODE 'transformer.h.2.mlp.c_proj'
+ 8861: r            LONG_BINPUT 603
+ 8866: }            EMPTY_DICT
+ 8867: r            LONG_BINPUT 604
+ 8872: j            LONG_BINGET 524
+ 8877: K            BININT1    1
+ 8879: s            SETITEM
+ 8880: X            BINUNICODE 'transformer.h.2.mlp.dropout'
+ 8912: r            LONG_BINPUT 605
+ 8917: }            EMPTY_DICT
+ 8918: r            LONG_BINPUT 606
+ 8923: j            LONG_BINGET 524
+ 8928: K            BININT1    1
+ 8930: s            SETITEM
+ 8931: X            BINUNICODE 'transformer.h.3'
+ 8951: r            LONG_BINPUT 607
+ 8956: }            EMPTY_DICT
+ 8957: r            LONG_BINPUT 608
+ 8962: j            LONG_BINGET 524
+ 8967: K            BININT1    1
+ 8969: s            SETITEM
+ 8970: X            BINUNICODE 'transformer.h.3.ln_1'
+ 8995: r            LONG_BINPUT 609
+ 9000: }            EMPTY_DICT
+ 9001: r            LONG_BINPUT 610
+ 9006: j            LONG_BINGET 524
+ 9011: K            BININT1    1
+ 9013: s            SETITEM
+ 9014: X            BINUNICODE 'transformer.h.3.attn'
+ 9039: r            LONG_BINPUT 611
+ 9044: }            EMPTY_DICT
+ 9045: r            LONG_BINPUT 612
+ 9050: j            LONG_BINGET 524
+ 9055: K            BININT1    1
+ 9057: s            SETITEM
+ 9058: X            BINUNICODE 'transformer.h.3.attn.c_attn'
+ 9090: r            LONG_BINPUT 613
+ 9095: }            EMPTY_DICT
+ 9096: r            LONG_BINPUT 614
+ 9101: j            LONG_BINGET 524
+ 9106: K            BININT1    1
+ 9108: s            SETITEM
+ 9109: X            BINUNICODE 'transformer.h.3.attn.c_proj'
+ 9141: r            LONG_BINPUT 615
+ 9146: }            EMPTY_DICT
+ 9147: r            LONG_BINPUT 616
+ 9152: j            LONG_BINGET 524
+ 9157: K            BININT1    1
+ 9159: s            SETITEM
+ 9160: X            BINUNICODE 'transformer.h.3.attn.resid_dropout'
+ 9199: r            LONG_BINPUT 617
+ 9204: }            EMPTY_DICT
+ 9205: r            LONG_BINPUT 618
+ 9210: j            LONG_BINGET 524
+ 9215: K            BININT1    1
+ 9217: s            SETITEM
+ 9218: X            BINUNICODE 'transformer.h.3.ln_2'
+ 9243: r            LONG_BINPUT 619
+ 9248: }            EMPTY_DICT
+ 9249: r            LONG_BINPUT 620
+ 9254: j            LONG_BINGET 524
+ 9259: K            BININT1    1
+ 9261: s            SETITEM
+ 9262: X            BINUNICODE 'transformer.h.3.mlp'
+ 9286: r            LONG_BINPUT 621
+ 9291: }            EMPTY_DICT
+ 9292: r            LONG_BINPUT 622
+ 9297: j            LONG_BINGET 524
+ 9302: K            BININT1    1
+ 9304: s            SETITEM
+ 9305: X            BINUNICODE 'transformer.h.3.mlp.c_fc'
+ 9334: r            LONG_BINPUT 623
+ 9339: }            EMPTY_DICT
+ 9340: r            LONG_BINPUT 624
+ 9345: j            LONG_BINGET 524
+ 9350: K            BININT1    1
+ 9352: s            SETITEM
+ 9353: X            BINUNICODE 'transformer.h.3.mlp.gelu'
+ 9382: r            LONG_BINPUT 625
+ 9387: }            EMPTY_DICT
+ 9388: r            LONG_BINPUT 626
+ 9393: j            LONG_BINGET 524
+ 9398: K            BININT1    1
+ 9400: s            SETITEM
+ 9401: X            BINUNICODE 'transformer.h.3.mlp.c_proj'
+ 9432: r            LONG_BINPUT 627
+ 9437: }            EMPTY_DICT
+ 9438: r            LONG_BINPUT 628
+ 9443: j            LONG_BINGET 524
+ 9448: K            BININT1    1
+ 9450: s            SETITEM
+ 9451: X            BINUNICODE 'transformer.h.3.mlp.dropout'
+ 9483: r            LONG_BINPUT 629
+ 9488: }            EMPTY_DICT
+ 9489: r            LONG_BINPUT 630
+ 9494: j            LONG_BINGET 524
+ 9499: K            BININT1    1
+ 9501: s            SETITEM
+ 9502: X            BINUNICODE 'transformer.h.4'
+ 9522: r            LONG_BINPUT 631
+ 9527: }            EMPTY_DICT
+ 9528: r            LONG_BINPUT 632
+ 9533: j            LONG_BINGET 524
+ 9538: K            BININT1    1
+ 9540: s            SETITEM
+ 9541: X            BINUNICODE 'transformer.h.4.ln_1'
+ 9566: r            LONG_BINPUT 633
+ 9571: }            EMPTY_DICT
+ 9572: r            LONG_BINPUT 634
+ 9577: j            LONG_BINGET 524
+ 9582: K            BININT1    1
+ 9584: s            SETITEM
+ 9585: X            BINUNICODE 'transformer.h.4.attn'
+ 9610: r            LONG_BINPUT 635
+ 9615: }            EMPTY_DICT
+ 9616: r            LONG_BINPUT 636
+ 9621: j            LONG_BINGET 524
+ 9626: K            BININT1    1
+ 9628: s            SETITEM
+ 9629: X            BINUNICODE 'transformer.h.4.attn.c_attn'
+ 9661: r            LONG_BINPUT 637
+ 9666: }            EMPTY_DICT
+ 9667: r            LONG_BINPUT 638
+ 9672: j            LONG_BINGET 524
+ 9677: K            BININT1    1
+ 9679: s            SETITEM
+ 9680: X            BINUNICODE 'transformer.h.4.attn.c_proj'
+ 9712: r            LONG_BINPUT 639
+ 9717: }            EMPTY_DICT
+ 9718: r            LONG_BINPUT 640
+ 9723: j            LONG_BINGET 524
+ 9728: K            BININT1    1
+ 9730: s            SETITEM
+ 9731: X            BINUNICODE 'transformer.h.4.attn.resid_dropout'
+ 9770: r            LONG_BINPUT 641
+ 9775: }            EMPTY_DICT
+ 9776: r            LONG_BINPUT 642
+ 9781: j            LONG_BINGET 524
+ 9786: K            BININT1    1
+ 9788: s            SETITEM
+ 9789: X            BINUNICODE 'transformer.h.4.ln_2'
+ 9814: r            LONG_BINPUT 643
+ 9819: }            EMPTY_DICT
+ 9820: r            LONG_BINPUT 644
+ 9825: j            LONG_BINGET 524
+ 9830: K            BININT1    1
+ 9832: s            SETITEM
+ 9833: X            BINUNICODE 'transformer.h.4.mlp'
+ 9857: r            LONG_BINPUT 645
+ 9862: }            EMPTY_DICT
+ 9863: r            LONG_BINPUT 646
+ 9868: j            LONG_BINGET 524
+ 9873: K            BININT1    1
+ 9875: s            SETITEM
+ 9876: X            BINUNICODE 'transformer.h.4.mlp.c_fc'
+ 9905: r            LONG_BINPUT 647
+ 9910: }            EMPTY_DICT
+ 9911: r            LONG_BINPUT 648
+ 9916: j            LONG_BINGET 524
+ 9921: K            BININT1    1
+ 9923: s            SETITEM
+ 9924: X            BINUNICODE 'transformer.h.4.mlp.gelu'
+ 9953: r            LONG_BINPUT 649
+ 9958: }            EMPTY_DICT
+ 9959: r            LONG_BINPUT 650
+ 9964: j            LONG_BINGET 524
+ 9969: K            BININT1    1
+ 9971: s            SETITEM
+ 9972: X            BINUNICODE 'transformer.h.4.mlp.c_proj'
+10003: r            LONG_BINPUT 651
+10008: }            EMPTY_DICT
+10009: r            LONG_BINPUT 652
+10014: j            LONG_BINGET 524
+10019: K            BININT1    1
+10021: s            SETITEM
+10022: X            BINUNICODE 'transformer.h.4.mlp.dropout'
+10054: r            LONG_BINPUT 653
+10059: }            EMPTY_DICT
+10060: r            LONG_BINPUT 654
+10065: j            LONG_BINGET 524
+10070: K            BININT1    1
+10072: s            SETITEM
+10073: X            BINUNICODE 'transformer.h.5'
+10093: r            LONG_BINPUT 655
+10098: }            EMPTY_DICT
+10099: r            LONG_BINPUT 656
+10104: j            LONG_BINGET 524
+10109: K            BININT1    1
+10111: s            SETITEM
+10112: X            BINUNICODE 'transformer.h.5.ln_1'
+10137: r            LONG_BINPUT 657
+10142: }            EMPTY_DICT
+10143: r            LONG_BINPUT 658
+10148: j            LONG_BINGET 524
+10153: K            BININT1    1
+10155: s            SETITEM
+10156: X            BINUNICODE 'transformer.h.5.attn'
+10181: r            LONG_BINPUT 659
+10186: }            EMPTY_DICT
+10187: r            LONG_BINPUT 660
+10192: j            LONG_BINGET 524
+10197: K            BININT1    1
+10199: s            SETITEM
+10200: X            BINUNICODE 'transformer.h.5.attn.c_attn'
+10232: r            LONG_BINPUT 661
+10237: }            EMPTY_DICT
+10238: r            LONG_BINPUT 662
+10243: j            LONG_BINGET 524
+10248: K            BININT1    1
+10250: s            SETITEM
+10251: X            BINUNICODE 'transformer.h.5.attn.c_proj'
+10283: r            LONG_BINPUT 663
+10288: }            EMPTY_DICT
+10289: r            LONG_BINPUT 664
+10294: j            LONG_BINGET 524
+10299: K            BININT1    1
+10301: s            SETITEM
+10302: X            BINUNICODE 'transformer.h.5.attn.resid_dropout'
+10341: r            LONG_BINPUT 665
+10346: }            EMPTY_DICT
+10347: r            LONG_BINPUT 666
+10352: j            LONG_BINGET 524
+10357: K            BININT1    1
+10359: s            SETITEM
+10360: X            BINUNICODE 'transformer.h.5.ln_2'
+10385: r            LONG_BINPUT 667
+10390: }            EMPTY_DICT
+10391: r            LONG_BINPUT 668
+10396: j            LONG_BINGET 524
+10401: K            BININT1    1
+10403: s            SETITEM
+10404: X            BINUNICODE 'transformer.h.5.mlp'
+10428: r            LONG_BINPUT 669
+10433: }            EMPTY_DICT
+10434: r            LONG_BINPUT 670
+10439: j            LONG_BINGET 524
+10444: K            BININT1    1
+10446: s            SETITEM
+10447: X            BINUNICODE 'transformer.h.5.mlp.c_fc'
+10476: r            LONG_BINPUT 671
+10481: }            EMPTY_DICT
+10482: r            LONG_BINPUT 672
+10487: j            LONG_BINGET 524
+10492: K            BININT1    1
+10494: s            SETITEM
+10495: X            BINUNICODE 'transformer.h.5.mlp.gelu'
+10524: r            LONG_BINPUT 673
+10529: }            EMPTY_DICT
+10530: r            LONG_BINPUT 674
+10535: j            LONG_BINGET 524
+10540: K            BININT1    1
+10542: s            SETITEM
+10543: X            BINUNICODE 'transformer.h.5.mlp.c_proj'
+10574: r            LONG_BINPUT 675
+10579: }            EMPTY_DICT
+10580: r            LONG_BINPUT 676
+10585: j            LONG_BINGET 524
+10590: K            BININT1    1
+10592: s            SETITEM
+10593: X            BINUNICODE 'transformer.h.5.mlp.dropout'
+10625: r            LONG_BINPUT 677
+10630: }            EMPTY_DICT
+10631: r            LONG_BINPUT 678
+10636: j            LONG_BINGET 524
+10641: K            BININT1    1
+10643: s            SETITEM
+10644: X            BINUNICODE 'transformer.h.6'
+10664: r            LONG_BINPUT 679
+10669: }            EMPTY_DICT
+10670: r            LONG_BINPUT 680
+10675: j            LONG_BINGET 524
+10680: K            BININT1    1
+10682: s            SETITEM
+10683: X            BINUNICODE 'transformer.h.6.ln_1'
+10708: r            LONG_BINPUT 681
+10713: }            EMPTY_DICT
+10714: r            LONG_BINPUT 682
+10719: j            LONG_BINGET 524
+10724: K            BININT1    1
+10726: s            SETITEM
+10727: X            BINUNICODE 'transformer.h.6.attn'
+10752: r            LONG_BINPUT 683
+10757: }            EMPTY_DICT
+10758: r            LONG_BINPUT 684
+10763: j            LONG_BINGET 524
+10768: K            BININT1    1
+10770: s            SETITEM
+10771: X            BINUNICODE 'transformer.h.6.attn.c_attn'
+10803: r            LONG_BINPUT 685
+10808: }            EMPTY_DICT
+10809: r            LONG_BINPUT 686
+10814: j            LONG_BINGET 524
+10819: K            BININT1    1
+10821: s            SETITEM
+10822: X            BINUNICODE 'transformer.h.6.attn.c_proj'
+10854: r            LONG_BINPUT 687
+10859: }            EMPTY_DICT
+10860: r            LONG_BINPUT 688
+10865: j            LONG_BINGET 524
+10870: K            BININT1    1
+10872: s            SETITEM
+10873: X            BINUNICODE 'transformer.h.6.attn.resid_dropout'
+10912: r            LONG_BINPUT 689
+10917: }            EMPTY_DICT
+10918: r            LONG_BINPUT 690
+10923: j            LONG_BINGET 524
+10928: K            BININT1    1
+10930: s            SETITEM
+10931: X            BINUNICODE 'transformer.h.6.ln_2'
+10956: r            LONG_BINPUT 691
+10961: }            EMPTY_DICT
+10962: r            LONG_BINPUT 692
+10967: j            LONG_BINGET 524
+10972: K            BININT1    1
+10974: s            SETITEM
+10975: X            BINUNICODE 'transformer.h.6.mlp'
+10999: r            LONG_BINPUT 693
+11004: }            EMPTY_DICT
+11005: r            LONG_BINPUT 694
+11010: j            LONG_BINGET 524
+11015: K            BININT1    1
+11017: s            SETITEM
+11018: X            BINUNICODE 'transformer.h.6.mlp.c_fc'
+11047: r            LONG_BINPUT 695
+11052: }            EMPTY_DICT
+11053: r            LONG_BINPUT 696
+11058: j            LONG_BINGET 524
+11063: K            BININT1    1
+11065: s            SETITEM
+11066: X            BINUNICODE 'transformer.h.6.mlp.gelu'
+11095: r            LONG_BINPUT 697
+11100: }            EMPTY_DICT
+11101: r            LONG_BINPUT 698
+11106: j            LONG_BINGET 524
+11111: K            BININT1    1
+11113: s            SETITEM
+11114: X            BINUNICODE 'transformer.h.6.mlp.c_proj'
+11145: r            LONG_BINPUT 699
+11150: }            EMPTY_DICT
+11151: r            LONG_BINPUT 700
+11156: j            LONG_BINGET 524
+11161: K            BININT1    1
+11163: s            SETITEM
+11164: X            BINUNICODE 'transformer.h.6.mlp.dropout'
+11196: r            LONG_BINPUT 701
+11201: }            EMPTY_DICT
+11202: r            LONG_BINPUT 702
+11207: j            LONG_BINGET 524
+11212: K            BININT1    1
+11214: s            SETITEM
+11215: X            BINUNICODE 'transformer.h.7'
+11235: r            LONG_BINPUT 703
+11240: }            EMPTY_DICT
+11241: r            LONG_BINPUT 704
+11246: j            LONG_BINGET 524
+11251: K            BININT1    1
+11253: s            SETITEM
+11254: X            BINUNICODE 'transformer.h.7.ln_1'
+11279: r            LONG_BINPUT 705
+11284: }            EMPTY_DICT
+11285: r            LONG_BINPUT 706
+11290: j            LONG_BINGET 524
+11295: K            BININT1    1
+11297: s            SETITEM
+11298: X            BINUNICODE 'transformer.h.7.attn'
+11323: r            LONG_BINPUT 707
+11328: }            EMPTY_DICT
+11329: r            LONG_BINPUT 708
+11334: j            LONG_BINGET 524
+11339: K            BININT1    1
+11341: s            SETITEM
+11342: X            BINUNICODE 'transformer.h.7.attn.c_attn'
+11374: r            LONG_BINPUT 709
+11379: }            EMPTY_DICT
+11380: r            LONG_BINPUT 710
+11385: j            LONG_BINGET 524
+11390: K            BININT1    1
+11392: s            SETITEM
+11393: X            BINUNICODE 'transformer.h.7.attn.c_proj'
+11425: r            LONG_BINPUT 711
+11430: }            EMPTY_DICT
+11431: r            LONG_BINPUT 712
+11436: j            LONG_BINGET 524
+11441: K            BININT1    1
+11443: s            SETITEM
+11444: X            BINUNICODE 'transformer.h.7.attn.resid_dropout'
+11483: r            LONG_BINPUT 713
+11488: }            EMPTY_DICT
+11489: r            LONG_BINPUT 714
+11494: j            LONG_BINGET 524
+11499: K            BININT1    1
+11501: s            SETITEM
+11502: X            BINUNICODE 'transformer.h.7.ln_2'
+11527: r            LONG_BINPUT 715
+11532: }            EMPTY_DICT
+11533: r            LONG_BINPUT 716
+11538: j            LONG_BINGET 524
+11543: K            BININT1    1
+11545: s            SETITEM
+11546: X            BINUNICODE 'transformer.h.7.mlp'
+11570: r            LONG_BINPUT 717
+11575: }            EMPTY_DICT
+11576: r            LONG_BINPUT 718
+11581: j            LONG_BINGET 524
+11586: K            BININT1    1
+11588: s            SETITEM
+11589: X            BINUNICODE 'transformer.h.7.mlp.c_fc'
+11618: r            LONG_BINPUT 719
+11623: }            EMPTY_DICT
+11624: r            LONG_BINPUT 720
+11629: j            LONG_BINGET 524
+11634: K            BININT1    1
+11636: s            SETITEM
+11637: X            BINUNICODE 'transformer.h.7.mlp.gelu'
+11666: r            LONG_BINPUT 721
+11671: }            EMPTY_DICT
+11672: r            LONG_BINPUT 722
+11677: j            LONG_BINGET 524
+11682: K            BININT1    1
+11684: s            SETITEM
+11685: X            BINUNICODE 'transformer.h.7.mlp.c_proj'
+11716: r            LONG_BINPUT 723
+11721: }            EMPTY_DICT
+11722: r            LONG_BINPUT 724
+11727: j            LONG_BINGET 524
+11732: K            BININT1    1
+11734: s            SETITEM
+11735: X            BINUNICODE 'transformer.h.7.mlp.dropout'
+11767: r            LONG_BINPUT 725
+11772: }            EMPTY_DICT
+11773: r            LONG_BINPUT 726
+11778: j            LONG_BINGET 524
+11783: K            BININT1    1
+11785: s            SETITEM
+11786: X            BINUNICODE 'transformer.h.8'
+11806: r            LONG_BINPUT 727
+11811: }            EMPTY_DICT
+11812: r            LONG_BINPUT 728
+11817: j            LONG_BINGET 524
+11822: K            BININT1    1
+11824: s            SETITEM
+11825: X            BINUNICODE 'transformer.h.8.ln_1'
+11850: r            LONG_BINPUT 729
+11855: }            EMPTY_DICT
+11856: r            LONG_BINPUT 730
+11861: j            LONG_BINGET 524
+11866: K            BININT1    1
+11868: s            SETITEM
+11869: X            BINUNICODE 'transformer.h.8.attn'
+11894: r            LONG_BINPUT 731
+11899: }            EMPTY_DICT
+11900: r            LONG_BINPUT 732
+11905: j            LONG_BINGET 524
+11910: K            BININT1    1
+11912: s            SETITEM
+11913: X            BINUNICODE 'transformer.h.8.attn.c_attn'
+11945: r            LONG_BINPUT 733
+11950: }            EMPTY_DICT
+11951: r            LONG_BINPUT 734
+11956: j            LONG_BINGET 524
+11961: K            BININT1    1
+11963: s            SETITEM
+11964: X            BINUNICODE 'transformer.h.8.attn.c_proj'
+11996: r            LONG_BINPUT 735
+12001: }            EMPTY_DICT
+12002: r            LONG_BINPUT 736
+12007: j            LONG_BINGET 524
+12012: K            BININT1    1
+12014: s            SETITEM
+12015: X            BINUNICODE 'transformer.h.8.attn.resid_dropout'
+12054: r            LONG_BINPUT 737
+12059: }            EMPTY_DICT
+12060: r            LONG_BINPUT 738
+12065: j            LONG_BINGET 524
+12070: K            BININT1    1
+12072: s            SETITEM
+12073: X            BINUNICODE 'transformer.h.8.ln_2'
+12098: r            LONG_BINPUT 739
+12103: }            EMPTY_DICT
+12104: r            LONG_BINPUT 740
+12109: j            LONG_BINGET 524
+12114: K            BININT1    1
+12116: s            SETITEM
+12117: X            BINUNICODE 'transformer.h.8.mlp'
+12141: r            LONG_BINPUT 741
+12146: }            EMPTY_DICT
+12147: r            LONG_BINPUT 742
+12152: j            LONG_BINGET 524
+12157: K            BININT1    1
+12159: s            SETITEM
+12160: X            BINUNICODE 'transformer.h.8.mlp.c_fc'
+12189: r            LONG_BINPUT 743
+12194: }            EMPTY_DICT
+12195: r            LONG_BINPUT 744
+12200: j            LONG_BINGET 524
+12205: K            BININT1    1
+12207: s            SETITEM
+12208: X            BINUNICODE 'transformer.h.8.mlp.gelu'
+12237: r            LONG_BINPUT 745
+12242: }            EMPTY_DICT
+12243: r            LONG_BINPUT 746
+12248: j            LONG_BINGET 524
+12253: K            BININT1    1
+12255: s            SETITEM
+12256: X            BINUNICODE 'transformer.h.8.mlp.c_proj'
+12287: r            LONG_BINPUT 747
+12292: }            EMPTY_DICT
+12293: r            LONG_BINPUT 748
+12298: j            LONG_BINGET 524
+12303: K            BININT1    1
+12305: s            SETITEM
+12306: X            BINUNICODE 'transformer.h.8.mlp.dropout'
+12338: r            LONG_BINPUT 749
+12343: }            EMPTY_DICT
+12344: r            LONG_BINPUT 750
+12349: j            LONG_BINGET 524
+12354: K            BININT1    1
+12356: s            SETITEM
+12357: X            BINUNICODE 'transformer.h.9'
+12377: r            LONG_BINPUT 751
+12382: }            EMPTY_DICT
+12383: r            LONG_BINPUT 752
+12388: j            LONG_BINGET 524
+12393: K            BININT1    1
+12395: s            SETITEM
+12396: X            BINUNICODE 'transformer.h.9.ln_1'
+12421: r            LONG_BINPUT 753
+12426: }            EMPTY_DICT
+12427: r            LONG_BINPUT 754
+12432: j            LONG_BINGET 524
+12437: K            BININT1    1
+12439: s            SETITEM
+12440: X            BINUNICODE 'transformer.h.9.attn'
+12465: r            LONG_BINPUT 755
+12470: }            EMPTY_DICT
+12471: r            LONG_BINPUT 756
+12476: j            LONG_BINGET 524
+12481: K            BININT1    1
+12483: s            SETITEM
+12484: X            BINUNICODE 'transformer.h.9.attn.c_attn'
+12516: r            LONG_BINPUT 757
+12521: }            EMPTY_DICT
+12522: r            LONG_BINPUT 758
+12527: j            LONG_BINGET 524
+12532: K            BININT1    1
+12534: s            SETITEM
+12535: X            BINUNICODE 'transformer.h.9.attn.c_proj'
+12567: r            LONG_BINPUT 759
+12572: }            EMPTY_DICT
+12573: r            LONG_BINPUT 760
+12578: j            LONG_BINGET 524
+12583: K            BININT1    1
+12585: s            SETITEM
+12586: X            BINUNICODE 'transformer.h.9.attn.resid_dropout'
+12625: r            LONG_BINPUT 761
+12630: }            EMPTY_DICT
+12631: r            LONG_BINPUT 762
+12636: j            LONG_BINGET 524
+12641: K            BININT1    1
+12643: s            SETITEM
+12644: X            BINUNICODE 'transformer.h.9.ln_2'
+12669: r            LONG_BINPUT 763
+12674: }            EMPTY_DICT
+12675: r            LONG_BINPUT 764
+12680: j            LONG_BINGET 524
+12685: K            BININT1    1
+12687: s            SETITEM
+12688: X            BINUNICODE 'transformer.h.9.mlp'
+12712: r            LONG_BINPUT 765
+12717: }            EMPTY_DICT
+12718: r            LONG_BINPUT 766
+12723: j            LONG_BINGET 524
+12728: K            BININT1    1
+12730: s            SETITEM
+12731: X            BINUNICODE 'transformer.h.9.mlp.c_fc'
+12760: r            LONG_BINPUT 767
+12765: }            EMPTY_DICT
+12766: r            LONG_BINPUT 768
+12771: j            LONG_BINGET 524
+12776: K            BININT1    1
+12778: s            SETITEM
+12779: X            BINUNICODE 'transformer.h.9.mlp.gelu'
+12808: r            LONG_BINPUT 769
+12813: }            EMPTY_DICT
+12814: r            LONG_BINPUT 770
+12819: j            LONG_BINGET 524
+12824: K            BININT1    1
+12826: s            SETITEM
+12827: X            BINUNICODE 'transformer.h.9.mlp.c_proj'
+12858: r            LONG_BINPUT 771
+12863: }            EMPTY_DICT
+12864: r            LONG_BINPUT 772
+12869: j            LONG_BINGET 524
+12874: K            BININT1    1
+12876: s            SETITEM
+12877: X            BINUNICODE 'transformer.h.9.mlp.dropout'
+12909: r            LONG_BINPUT 773
+12914: }            EMPTY_DICT
+12915: r            LONG_BINPUT 774
+12920: j            LONG_BINGET 524
+12925: K            BININT1    1
+12927: s            SETITEM
+12928: X            BINUNICODE 'transformer.ln_f'
+12949: r            LONG_BINPUT 775
+12954: }            EMPTY_DICT
+12955: r            LONG_BINPUT 776
+12960: j            LONG_BINGET 524
+12965: K            BININT1    1
+12967: s            SETITEM
+12968: X            BINUNICODE 'lm_head'
+12980: r            LONG_BINPUT 777
+12985: }            EMPTY_DICT
+12986: r            LONG_BINPUT 778
+12991: j            LONG_BINGET 524
+12996: K            BININT1    1
+12998: s            SETITEM
+12999: u            SETITEMS   (MARK at 6991)
+13000: s        SETITEM
+13001: b        BUILD
+13002: X        BINUNICODE 'model_config'
+13019: r        LONG_BINPUT 779
+13024: }        EMPTY_DICT
+13025: r        LONG_BINPUT 780
+13030: (        MARK
+13031: X            BINUNICODE 'vocab_size'
+13046: r            LONG_BINPUT 781
+13051: M            BININT2    262
+13054: X            BINUNICODE 'block_size'
+13069: r            LONG_BINPUT 782
+13074: M            BININT2    1024
+13077: X            BINUNICODE 'n_layer'
+13089: r            LONG_BINPUT 783
+13094: K            BININT1    10
+13096: X            BINUNICODE 'n_head'
+13107: r            LONG_BINPUT 784
+13112: K            BININT1    8
+13114: X            BINUNICODE 'n_embd'
+13125: r            LONG_BINPUT 785
+13130: M            BININT2    640
+13133: X            BINUNICODE 'dropout'
+13145: r            LONG_BINPUT 786
+13150: G            BINFLOAT   0.1
+13159: X            BINUNICODE 'bias'
+13168: r            LONG_BINPUT 787
+13173: \x89         NEWFALSE
+13174: X            BINUNICODE 'input_only_token_ids'
+13199: r            LONG_BINPUT 788
+13204: ]            EMPTY_LIST
+13205: r            LONG_BINPUT 789
+13210: u            SETITEMS   (MARK at 13030)
+13211: X        BINUNICODE 'config'
+13222: r        LONG_BINPUT 790
+13227: }        EMPTY_DICT
+13228: r        LONG_BINPUT 791
+13233: (        MARK
+13234: X            BINUNICODE 'tokenizer'
+13248: r            LONG_BINPUT 792
+13253: }            EMPTY_DICT
+13254: r            LONG_BINPUT 793
+13259: (            MARK
+13260: X                BINUNICODE 'kind'
+13269: r                LONG_BINPUT 794
+13274: X                BINUNICODE 'byte'
+13283: r                LONG_BINPUT 795
+13288: X                BINUNICODE 'scheme'
+13299: r                LONG_BINPUT 796
+13304: X                BINUNICODE 'utf8_bytes_with_greedy_special_tokens'
+13346: r                LONG_BINPUT 797
+13351: X                BINUNICODE 'source_encoding'
+13371: r                LONG_BINPUT 798
+13376: X                BINUNICODE 'utf-8'
+13386: r                LONG_BINPUT 799
+13391: X                BINUNICODE 'source_bytes_per_full_token'
+13423: r                LONG_BINPUT 800
+13428: G                BINFLOAT   1.0
+13437: X                BINUNICODE 'bytes_per_token'
+13457: r                LONG_BINPUT 801
+13462: G                BINFLOAT   1.0
+13471: X                BINUNICODE 'dtype'
+13481: r                LONG_BINPUT 802
+13486: X                BINUNICODE 'uint16_le'
+13500: r                LONG_BINPUT 803
+13505: X                BINUNICODE 'vocab_size'
+13520: r                LONG_BINPUT 804
+13525: M                BININT2    262
+13528: X                BINUNICODE 'special_tokens'
+13547: r                LONG_BINPUT 805
+13552: ]                EMPTY_LIST
+13553: r                LONG_BINPUT 806
+13558: (                MARK
+13559: }                    EMPTY_DICT
+13560: r                    LONG_BINPUT 807
+13565: (                    MARK
+13566: X                        BINUNICODE 'token'
+13576: r                        LONG_BINPUT 808
+13581: X                        BINUNICODE '<|fernando_pessoa|>'
+13605: r                        LONG_BINPUT 809
+13610: X                        BINUNICODE 'id'
+13617: r                        LONG_BINPUT 810
+13622: M                        BININT2    256
+13625: u                        SETITEMS   (MARK at 13565)
+13626: }                    EMPTY_DICT
+13627: r                    LONG_BINPUT 811
+13632: (                    MARK
+13633: j                        LONG_BINGET 808
+13638: X                        BINUNICODE '<|alberto_caeiro|>'
+13661: r                        LONG_BINPUT 812
+13666: j                        LONG_BINGET 810
+13671: M                        BININT2    257
+13674: u                        SETITEMS   (MARK at 13632)
+13675: }                    EMPTY_DICT
+13676: r                    LONG_BINPUT 813
+13681: (                    MARK
+13682: j                        LONG_BINGET 808
+13687: X                        BINUNICODE '<|ricardo_reis|>'
+13708: r                        LONG_BINPUT 814
+13713: j                        LONG_BINGET 810
+13718: M                        BININT2    258
+13721: u                        SETITEMS   (MARK at 13681)
+13722: }                    EMPTY_DICT
+13723: r                    LONG_BINPUT 815
+13728: (                    MARK
+13729: j                        LONG_BINGET 808
+13734: X                        BINUNICODE '<|bernardo_soares|>'
+13758: r                        LONG_BINPUT 816
+13763: j                        LONG_BINGET 810
+13768: M                        BININT2    259
+13771: u                        SETITEMS   (MARK at 13728)
+13772: }                    EMPTY_DICT
+13773: r                    LONG_BINPUT 817
+13778: (                    MARK
+13779: j                        LONG_BINGET 808
+13784: X                        BINUNICODE '_'
+13790: r                        LONG_BINPUT 818
+13795: j                        LONG_BINGET 810
+13800: M                        BININT2    260
+13803: u                        SETITEMS   (MARK at 13778)
+13804: }                    EMPTY_DICT
+13805: r                    LONG_BINPUT 819
+13810: (                    MARK
+13811: j                        LONG_BINGET 808
+13816: X                        BINUNICODE '{'
+13822: r                        LONG_BINPUT 820
+13827: j                        LONG_BINGET 810
+13832: M                        BININT2    261
+13835: u                        SETITEMS   (MARK at 13810)
+13836: e                    APPENDS    (MARK at 13558)
+13837: u                SETITEMS   (MARK at 13259)
+13838: X            BINUNICODE 'artifact'
+13851: r            LONG_BINPUT 821
+13856: X            BINUNICODE 'luso_lit_lm_player_v2'
+13882: r            LONG_BINPUT 822
+13887: u            SETITEMS   (MARK at 13233)
+13888: u        SETITEMS   (MARK at 5)
+13889: .    STOP
+highest protocol among opcodes = 2

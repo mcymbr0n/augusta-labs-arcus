@@ -220,3 +220,7 @@ __marimo__/
 # Ficheiros pesados do desafio (não versionar)
 *.pt
 artifacts/*.pt
+
+# Derivados do ode.pt (regeneraveis)
+artifacts/_extracted/
+artifacts/*.txt

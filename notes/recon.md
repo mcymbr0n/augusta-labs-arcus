@@ -33,16 +33,37 @@
 - Release por: vreabernardo
 - Descrição: "Minor artifact refresh for ode.pt to improve generation stability"
 
-## Comandos disponíveis
-<!-- resposta a "help", "?", ou o que descobrires -->
-- `comando` — o que faz
+## ode.pt — inspeção dos bytes
+- Primeiros bytes: PK\x03\x04 → é um contentor ZIP
+- Modelos PyTorch modernos são ZIPs por dentro (consistente com H1),
+  mas ZIP sozinho não confirma que é PyTorch
+  
+## ode.pt — estrutura interna
+- Checkpoint PyTorch (torch.save)
+- Contém: checkpoint/data.pkl, .format_version, byteorder, data/0..68
+- Tamanhos dos storages: padrão repetitivo (4915200/1638400/2560/6553600)
+  → consistente com camadas de transformer
+- Dados "stored" (não comprimidos) dentro do zip
 
-## Formato do output
-<!-- se houver ciphertext ou texto a analisar -->
-- Tipo de caracteres: [só ASCII? hex? base64? maiúsculas/minúsculas?]
-- Comprimento:
-- Padrões visíveis:
+## ode.pt — arquitetura do modelo
+- Modelo GPT estilo nanoGPT / GPT-2
+- transformer.wte.weight (262, 640) → vocabulário 262 = 256 bytes + 6 especiais
+  → tokenizer ao nível do BYTE (não palavras)
+- transformer.wpe.weight (1024, 640) → contexto 1024, dim escondida 640
+- Implementação base = nanoGPT (Karpathy), open-source e documentado
 
-## Comportamentos observados
-<!-- o que acontece com inputs diferentes: enter vazio, input aleatório, etc -->
--
+## ode.pt — config e tokenizer (completo)
+- Arquitetura nanoGPT: vocab 262, block 1024, n_layer 10, n_head 8,
+  n_embd 640, dropout 0.1, bias False
+- ~50M parâmetros, float32
+- config.artifact = "luso_lit_lm_player_v2"
+- Tokenizer byte-level (256 bytes + 6 especiais):
+  256 <|fernando_pessoa|>
+  257 <|alberto_caeiro|>
+  258 <|ricardo_reis|>
+  259 <|bernardo_soares|>
+  260 _
+  261 {
+- Álvaro de Campos NÃO está nos heterónimos (apesar de ser o tema)
+
+

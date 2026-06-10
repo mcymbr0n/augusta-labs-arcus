@@ -7,13 +7,13 @@
 
 ---
 
-## H1 — ode.pt é um modelo PyTorch que gera a flag
-- Estado: POR TESTAR
-- Razão: 191 MB é grande demais para texto. .pt = extensão PyTorch.
-  Descrição da release fala em "generation". Link é /ode.
-- Como testar: descarregar ode.pt e Source code, inspecionar o código,
-  perceber como o modelo gera output.
-- Próximo passo: download dos 3 assets para artifacts/.
+## H1 — flag gerada condicionando o modelo com token especial
+- Estado: POR TESTAR (caminho mais concreto)
+- Razão: tokens _ (260) e { (261) dedicados = vocabulário de formato
+  de flag (algo{..._..._...}). Os 4 heterónimos são tokens de
+  condicionamento. A flag emerge ao gerar com o prompt certo.
+- Como testar: carregar modelo, gerar condicionando por cada heterónimo
+  e ver se sai algo no formato xxx{..._...}.
 
 ## H2 — A flag vem do poema diretamente
 - Estado: POR TESTAR (menos provável)
@@ -23,22 +23,16 @@
 - Estado: POR TESTAR
 - Razão: "refreshed" sugere que a flag pode mudar com o tempo. Reparar
   se o poema/flag muda entre ligações.
-
-<!-- Exemplo do formato:
-
-## H1 — Cifra de substituição simples
-- Estado: A TESTAR
-- Razão: output tem letras trocadas mas estrutura de palavras preservada.
-- Como testar: análise de frequência contra o português.
-- Próximo passo: script de contagem de frequência.
-
-## H2 — A chave vem do poema Ode Triunfal
+  
+## H4 — A seed de geração vem do sha256 do ode.pt
 - Estado: POR TESTAR
-- Razão: o nome do desafio. Não foi escolhido por acaso.
-- Como testar: pegar no texto real do poema e ver se serve de chave/plaintext.
-
-## H3 — É base64
-- Estado: DESCARTADA
-- Razão: output só tem letras minúsculas. Base64 usa maiúsculas, números, +, /, =.
-- Descartada às 22:05.
--->
+- Razão: o hash está publicado, é determinístico, igual para todos.
+  Candidato plausível a seed/input para a geração ser reproduzível.
+- Como testar: quando souber correr o modelo, experimentar usar o
+  sha256 (ou parte) como seed e ver o que gera.
+  
+## H5 — A ausência de Álvaro de Campos é intencional
+- Estado: POR TESTAR
+- Razão: o desafio é "Ode Triunfal" (Campos) mas Campos não é token.
+  Pode ser pista (gerar SEM heterónimo? ou o "modo player" usa Campos
+  de outra forma?).
