@@ -66,4 +66,17 @@
   261 {
 - Álvaro de Campos NÃO está nos heterónimos (apesar de ser o tema)
 
-
+## Texto do servidor (copiado do terminal, 2a ligação)
+- refreshed: 2026-06-04 01:26 WEST → IGUAL à 1a ligação (não muda a cada
+  ligação). Coincide ~ com data de update da release no GitHub
+  (2026-06-04 00:31). Logo "refreshed" = data de atualização do artefacto,
+  provavelmente NÃO um relógio dinâmico.
+- Texto vem centrado/indentado no terminal (espaços de formatação,
+  provavelmente não fazem parte do prompt real).
+- Versos (limpos):
+  Ode Triunfal
+  Canto, e canto o presente, e também o passado e o futuro,
+  Porque o presente é todo o passado e todo o futuro
+  E há Platão e Virgílio dentro das máquinas e das luzes eléctricas
+  Só porque houve outrora e foram humanos Virgílio e Platão
+  https://augustalabs.ai/ode

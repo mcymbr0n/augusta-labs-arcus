@@ -7,22 +7,22 @@
 
 ---
 
-## H1 — flag gerada condicionando o modelo com token especial
-- Estado: POR TESTAR (caminho mais concreto)
-- Razão: tokens _ (260) e { (261) dedicados = vocabulário de formato
-  de flag (algo{..._..._...}). Os 4 heterónimos são tokens de
-  condicionamento. A flag emerge ao gerar com o prompt certo.
-- Como testar: carregar modelo, gerar condicionando por cada heterónimo
-  e ver se sai algo no formato xxx{..._...}.
+## H1 — flag gerada dando os versos do servidor como prompt
+- Estado: A TESTAR (refinada)
+- Descartado: dar só 1 token (loop). Greedy+contexto curto = repetição.
+- Novo plano: usar os 4 versos exatos (+ timestamp?) do servidor como
+  prompt e ver o que o modelo gera a seguir.
+- Liga ao "refreshed": prompt com timestamp → flag dinâmica.
 
 ## H2 — A flag vem do poema diretamente
 - Estado: POR TESTAR (menos provável)
 - Razão: o poema está à frente. Mas seria fácil demais para 237k tentativas.
 
-## H3 — refreshed timestamp importa
-- Estado: POR TESTAR
-- Razão: "refreshed" sugere que a flag pode mudar com o tempo. Reparar
-  se o poema/flag muda entre ligações.
+## H3 — flag dinâmica via "refreshed"
+- Estado: ENFRAQUECIDA (quase descartada)
+- Razão: refreshed não mudou entre ligações (2026-06-04 fixo). Coincide
+  com data de update da release. Provavelmente é data de atualização,
+  não relógio dinâmico. Flag é provavelmente FIXA.
   
 ## H4 — A seed de geração vem do sha256 do ode.pt
 - Estado: POR TESTAR

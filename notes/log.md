@@ -69,3 +69,24 @@ parecem delimitadores de flag (formato algo{..._...}). Campos ausente
 dos heterónimos apesar de ser o tema — possível pista. Caminho fica
 claro: gerar condicionando o modelo. Próximo: decidir como correr
 (NumPy vs PyTorch) e fazer commit antes.
+
+### 13:24
+Claude assumiu que torch não instalaria no Python 3.14. Testei: instalou
+(torch 2.12.0+cpu, build cp314 existe). Verifiquei com import — funciona.
+Lição: verificar > assumir. Versão CPU é suficiente para um modelo de 50M params.
+
+### 13:34
+Modelo carregado e a gerar! Carregamento seguro (weights_only) OK,
+state_dict encaixou 100% (missing/unexpected vazios), 50.16M params.
+Geração base (sem condicionar) → prosa literária PT coerente, registo
+oitocentista (Garrett?), não Campos. Logo: corpus de treino é mais
+largo que só a Ode Triunfal. Modelo funcional. Próximo: condicionar.
+
+### 14:02
+Testei greedy com 1 token de arranque (cada token especial + { e _).
+Todos colapsam em loop repetitivo ("de carne e de carne..."). Conclusão:
+1 token não chega como prompt. { sozinho NÃO é tratado como delimitador
+auto-fechável. O modelo precisa de PROMPT concreto. Candidato: os 4
+versos + timestamp que o servidor mostra. "refreshed" explicaria flag
+dinâmica (prompt muda → flag muda).
+
