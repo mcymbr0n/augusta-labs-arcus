@@ -7,11 +7,22 @@
 
 ---
 
-## H1 — [título da hipótese]
+## H1 — ode.pt é um modelo PyTorch que gera a flag
 - Estado: POR TESTAR
-- Razão:
-- Como testar:
-- Próximo passo:
+- Razão: 191 MB é grande demais para texto. .pt = extensão PyTorch.
+  Descrição da release fala em "generation". Link é /ode.
+- Como testar: descarregar ode.pt e Source code, inspecionar o código,
+  perceber como o modelo gera output.
+- Próximo passo: download dos 3 assets para artifacts/.
+
+## H2 — A flag vem do poema diretamente
+- Estado: POR TESTAR (menos provável)
+- Razão: o poema está à frente. Mas seria fácil demais para 237k tentativas.
+
+## H3 — refreshed timestamp importa
+- Estado: POR TESTAR
+- Razão: "refreshed" sugere que a flag pode mudar com o tempo. Reparar
+  se o poema/flag muda entre ligações.
 
 <!-- Exemplo do formato:
 
