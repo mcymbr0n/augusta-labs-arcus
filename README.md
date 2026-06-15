@@ -1,23 +1,42 @@
-# augusta-labs-arcus
+# Arcus Prize — "Ode Triunfal" (Challenge I)
 
-Workspace pessoal para o desafio **Arcus Prize** da Augusta Labs ("Ode Triunfal").
+My investigation of Augusta Labs' Arcus recruitment challenge, *Ode Triunfal*.
 
-## O desafio
-- Entrada: `ssh augustalabs.ai` (sem conta, liga direto)
-- Origem: augustalabs.ai/arcus → arcus-tui.vercel.app
-- Deadline: **2026-06-15 23:59 +01:00**
-- Submissão: email para `arcus@augustalabs.ai` com write-up (obrigatório) + id da flag (opcional)
+The challenge distributes a ~191 MB PyTorch artifact (`ode.pt`) and asks for a
+flag over `ssh augustalabs.ai`. This repo is the full record of how I took the
+model apart: the reasoning, the experiments, and the dead ends.
 
-## Prémios
-- First blood (primeiro a achar a flag): 1000€
-- Best write-up (solução mais clara e original): 2000€
-- Standout work: contratação
+## What I found
 
-## Estrutura
-- `notes/` — pensamento. log cronológico, recon do servidor, hipóteses.
-- `artifacts/` — ficheiros vindos do desafio (originais, intocados).
-- `scripts/` — código (Claude Code trabalha aqui).
-- `writeup/` — rascunhos do documento final.
+`ode.pt` is a 50M-parameter byte-level nanoGPT trained on digitized
+public-domain Luso-Brazilian literature. It has memorized one flag — a **decoy**,
+triggered by the literal string `<|alvaro_de_campos|>`: the one Pessoa heteronym
+deliberately missing from the model's special tokens, and the author of the very
+poem on screen. The decoy is a corrupted version of the Ode's closing
+onomatopoeia that degenerates into a snore — a thematic "you've been fooled". It
+fails submission.
 
-## Princípio
-O write-up não se escreve no fim, constrói-se durante. O `log.md` alimenta-o.
+After an extensive, varied search I could not extract a genuine flag from the
+public artifact. I document why, honestly — including where my own tools proved
+inconclusive.
+
+**Full write-up: [`writeup/writeup.md`](writeup/writeup.md)**
+
+## How this repo is organized
+
+- `writeup/` — the write-up (the main deliverable)
+- `notes/` — my working notes: a chronological log, server/artifact recon, and
+  the running list of hypotheses and why each was discarded
+- `scripts/` — the probes (`probe_*.py`); every claim in the write-up is backed
+  by one of these
+
+The model file `ode.pt` is not included (it's distributed via the challenge's
+own GitHub release).
+
+## Reproducing
+
+Load the model via `scripts/model_lib.py` (safe `weights_only=True` loading),
+then run any probe:
+```
+PYTHONIOENCODING=utf-8 python -X utf8 scripts/<probe>.py
+```
