@@ -1,4 +1,4 @@
-# Arcus Prize — "Ode Triunfal" (Challenge I)
+# Arcus Prize — "Ode Triunfal"
 
 My investigation of Augusta Labs' Arcus recruitment challenge, *Ode Triunfal*.
 
